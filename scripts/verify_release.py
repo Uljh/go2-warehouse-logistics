@@ -54,12 +54,14 @@ def main():
             if n!=proof['original_frames']:raise RuntimeError('Projection frame count differs')
             reports[key]['all200hz_frames_rechecked']=n
     syntax=0
-    for folder in [ROOT/'go2_logistics',ROOT/'scripts',ROOT/'repro']:
+    for folder in [ROOT/'go2_logistics',ROOT/'scripts',ROOT/'repro',ROOT/'training']:
         for p in folder.rglob('*.py'):
             ast.parse(p.read_text(encoding='utf-8-sig'));syntax+=1
     for name in ['carry','empty_return']:
         checkpoint=ROOT/'weights'/name/'mounted_gait.pt';m=read(checkpoint.parent/'manifest.json')
         if sha(checkpoint)!=m['trained_checkpoint_sha256']:raise RuntimeError('Trained weight identity differs')
+        captured=read(ROOT/'training'/name/'source_manifest.json')
+        if any(sha(ROOT/'training'/name/n)!=h for n,h in captured.items()):raise RuntimeError('Captured training source differs')
     if args.media:
         import cv2
         videos={}

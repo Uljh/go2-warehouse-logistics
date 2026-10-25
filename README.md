@@ -75,6 +75,7 @@ The launcher materializes the exact captured source profile in a new output dire
 | Gait, support and actuation | [isaac_policy_runner.py](go2_logistics/isaac_policy_runner.py), [balance_recovery.py](go2_logistics/balance_recovery.py), [return_gait_policy.py](go2_logistics/return_gait_policy.py) |
 | Recorded revisions | [repro/](repro), [source dependency provenance](repro/shared_dependency_provenance.json) |
 | Learned weights and provenance | [weights/](weights), [model card](docs/MODEL_CARD.md) |
+| Captured PPO adaptation implementation | [training/](training) |
 | Evidence and measurement projections | [evidence/](evidence), [release verification](scripts/verify_release.py) |
 
 Locomotion uses adapted pretrained policies; parcel detection, routing, reservations and manipulation are explicit modules. This is not an end-to-end learned warehouse policy.

@@ -13,6 +13,8 @@ The name `carry` identifies its runtime role. The training scope in the supplied
 
 Training manifests are supplied beside each weight with original machine/user path prefixes redacted. Historical evaluation numbers are provenance, not a newly verified success-rate estimate. Current portfolio claims come from the three named physical recordings and their original independent audits.
 
+The actual captured adaptation implementations are preserved in [training/](../training), including each run's five-file source manifest. They are research source snapshots, not a freshly validated one-command training pipeline.
+
 The return actor is gated by empty payload state, phase and measured arm stow, with a finite blend. Support/recovery controllers may still have final action authority; actor selection and physical task success are audited separately.
 
 Models were developed and recorded in simulation on a known environment. No hardware transfer, onboard perception, random warehouse robustness or larger-fleet performance is established. Original simulator, robot description and RSL-RL terms remain applicable; see `THIRD_PARTY.md`.

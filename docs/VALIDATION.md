@@ -13,7 +13,8 @@ Checked on 2026-10-25 against the original local archive.
 | Actor checkpoint identities | Both original SHA-256 values match |
 | Actor tensor schema | RSL-RL state dictionaries; input48, hidden128/128/128, output12; all actor tensors finite |
 | Launch-wrapper integration | All three dry runs reached the guarded simulator boundary without launching Isaac |
-| Python syntax |101 published runtime/overlay/tool sources parsed |
+| Captured PPO adaptation source identities | Two five-file source profiles, original hashes retained |
+| Python syntax |109 published runtime/overlay/tool/training sources parsed |
 
 These are publication and saved-evidence checks, not new physical experiments. The historical pass verdicts apply to the named recordings. The asset-download/import/full-run path on a new machine was not executed during packaging. Additional shared dependencies not captured historically remain identified in `repro/shared_dependency_provenance.json`.
 

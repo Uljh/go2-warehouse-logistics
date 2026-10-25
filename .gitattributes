@@ -3,6 +3,7 @@
 /repro/** -text
 /evidence/** -text
 /weights/** -text
+/training/** -text
 /scripts/*.py text eol=lf
 *.md text eol=lf
 *.html text eol=lf
