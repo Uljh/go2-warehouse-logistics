@@ -1,0 +1,18 @@
+{
+  "original_run": "z1_dynamic_cart_20261024_e_perturbed_range",
+  "overrides": [
+    "fleet_runtime.py",
+    "sensor_navigation.py",
+    "isaac_policy_runner.py",
+    "stow_brake_support.py",
+    "motor_target_support.py",
+    "run_z1_warehouse_demo.ps1",
+    "run_warehouse_demo.ps1",
+    "balance_recovery.py",
+    "z1_fleet_arm.py",
+    "z1_warehouse_backend.py"
+  ],
+  "frozen_source_count": 66,
+  "base": "go2_logistics",
+  "note": "All originally frozen Python files are byte-for-byte recoverable; the portable launcher replaces only historical machine-specific host setup. Shared dependencies not captured in the historical manifest are identified separately."
+}

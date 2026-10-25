@@ -1,0 +1,57 @@
+{
+  "original_run": "z1_dynamic_cart_20261024_e_perturbed_range",
+  "seconds": 37.17,
+  "frames": 7434,
+  "physical_passed": true,
+  "evidence_complete": true,
+  "home_error_m": {
+    "dog1": 0.024861688493970194,
+    "dog2": 0.03207042826364727
+  },
+  "final_placement": null,
+  "guarded_contact": {},
+  "dynamic_obstacle": {
+    "enabled": true,
+    "scenario": "Scripted kinematic cart crossing both front aisles",
+    "navigation_inputs": "Existing PhysX ray ranges only; fixture pose/clock/identity are evaluation-only",
+    "not_slam": true,
+    "not_learned_obstacle_policy": true,
+    "speed_mps": 0.28,
+    "size_m": [
+      0.6,
+      0.8,
+      0.75
+    ],
+    "elapsed_s": 37.17000000000056,
+    "maximum_fixture_contact_n": 0.0,
+    "contact_limit_n": 1.0,
+    "maximum_displacement_m": 4.599599885940552,
+    "observed_scans": {
+      "dog1": 233,
+      "dog2": 349
+    },
+    "trace_samples": 7434,
+    "trace_sha256": "f2af222913746fd8d133e8a00dcb9cfabf7d6067a247c537c2150653fbbd8ccc",
+    "exposure_verified": true,
+    "scope": "Dynamic navigation exposure only; full success also requires original robot, route and home guards"
+  },
+  "original_video_sha256": "7a623ae4dc486ae596e1380aa868079211baa6b2b846fb2a862c89953e7e2647",
+  "frozen_source_count": 66,
+  "measurement_projection": {
+    "original_trace_sha256": "1ab7630f0e9555b86a9dbf14b220122a2d144544db730952bead64fc7b88fc0c",
+    "original_frames": 7434,
+    "projected_trace_sha256": "d39834ab9141ceda0a1867387d70532292a4da7ab72ed90e3ae65958692d31c8",
+    "projected_trace_fields": "Both dogs every200Hz native step; root state, phases, original jaw forces, payload state. Arm/leg action matrices and camera/range raw arrays omitted.",
+    "clock_and_original_body_force_guards_rechecked": true,
+    "minimum_height_m": {
+      "dog1": 0.2970660924911499,
+      "dog2": 0.3140106797218323
+    },
+    "maximum_measured_jaw_force_n": {
+      "dog1": 0.0,
+      "dog2": 0.0
+    },
+    "world_reset_between_orders": false
+  },
+  "limitations": "Original-mass Z1 two-dog unloaded dynamic-cart navigation; scripted kinematic obstacle, PhysX ranging, simulation localization. Not cargo delivery, SLAM or learned obstacle motion."
+}

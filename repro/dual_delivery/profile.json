@@ -1,0 +1,21 @@
+{
+  "original_run": "z1_dual_handoff_supportqp_20261023_133835",
+  "overrides": [
+    "fleet_runtime.py",
+    "touchdown_ik.py",
+    "fleet.py",
+    "return_gait_policy.py",
+    "stow_brake_support.py",
+    "run_z1_warehouse_demo.ps1",
+    "receiving_pipeline.py",
+    "analyze_receiving_pipeline.py",
+    "run_warehouse_demo.ps1",
+    "balance_recovery.py",
+    "sorting_scene.py",
+    "z1_fleet_arm.py",
+    "z1_warehouse_backend.py"
+  ],
+  "frozen_source_count": 60,
+  "base": "go2_logistics",
+  "note": "All originally frozen Python files are byte-for-byte recoverable; the portable launcher replaces only historical machine-specific host setup. Shared dependencies not captured in the historical manifest are identified separately."
+}

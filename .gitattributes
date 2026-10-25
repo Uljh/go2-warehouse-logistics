@@ -1,0 +1,14 @@
+# Captured source hashes depend on exact original bytes, including line endings.
+/go2_logistics/** -text
+/repro/** -text
+/evidence/** -text
+/weights/** -text
+/scripts/*.py text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.mp4 binary
+*.gif binary
+*.jpg binary
+*.png binary
+*.gz binary
+*.pt binary

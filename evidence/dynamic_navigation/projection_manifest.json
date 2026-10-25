@@ -1,0 +1,16 @@
+{
+  "original_trace_sha256": "1ab7630f0e9555b86a9dbf14b220122a2d144544db730952bead64fc7b88fc0c",
+  "original_frames": 7434,
+  "projected_trace_sha256": "d39834ab9141ceda0a1867387d70532292a4da7ab72ed90e3ae65958692d31c8",
+  "projected_trace_fields": "Both dogs every200Hz native step; root state, phases, original jaw forces, payload state. Arm/leg action matrices and camera/range raw arrays omitted.",
+  "clock_and_original_body_force_guards_rechecked": true,
+  "minimum_height_m": {
+    "dog1": 0.2970660924911499,
+    "dog2": 0.3140106797218323
+  },
+  "maximum_measured_jaw_force_n": {
+    "dog1": 0.0,
+    "dog2": 0.0
+  },
+  "world_reset_between_orders": false
+}

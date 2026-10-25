@@ -1,0 +1,1650 @@
+{
+  "created_at": "2026-10-22T11:56:33.089207+08:00",
+  "source_checkpoint": "<original-workspace>\\artifacts\\gait_adaptation\\run_20261021_183701\\mounted_gait.pt",
+  "source_checkpoint_sha256": "3ccd04b1e2523163c0a63071a608ed28c7afa8c627131f9b3cdfe6537488682c",
+  "robot_asset": "<original-workspace>\\artifacts\\gait_adaptation\\run_20261022_115629\\go2_z1.usda",
+  "robot_asset_sha256": "aeb2a5b9831aa99fb8b561b3bed9c97ef7c04ec764bff9b1b82b6b4f58faa657",
+  "arm_model": "z1",
+  "pose_source": "<original-workspace>\\artifacts\\real_arm_z1\\mounted_carry_20261022_f\\trace.jsonl",
+  "pose_source_sha256": "b04c62dd9d5b1fc51f15d55699e4d981511603160c095595b5858a2c81c890d3",
+  "arm_target_poses_rad": [
+    [
+      0.0,
+      1.2,
+      -1.2,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.6,
+      -2.4,
+      0.0,
+      0.8,
+      0.0
+    ],
+    [
+      4.4626755624221914e-08,
+      2.4253785610198975,
+      -1.3404815196990967,
+      0.4825595021247864,
+      -6.919671250216197e-06,
+      2.2172596345626516e-06
+    ]
+  ],
+  "observation_dimension": 48,
+  "action_dimension": 12,
+  "seed": 11,
+  "num_envs": 256,
+  "iterations": 300,
+  "training_scope": "Original-mass Z1 home/stow plus measured extended carry poses; empty gripper, no parcel or grasp training",
+  "learning_rate": 0.0001,
+  "height_reward": {
+    "target_m": 0.33,
+    "weight": -200.0
+  },
+  "joint_limit_reward_weight": -2.0,
+  "command_ranges": {
+    "vx": [
+      -0.5,
+      0.5
+    ],
+    "vy": [
+      -0.35,
+      0.35
+    ],
+    "yaw": [
+      -0.15,
+      0.15
+    ]
+  },
+  "evaluation_scope": "deterministic command cycles, original hard-stop thresholds, no recovery or resets",
+  "actual_training_completed": true,
+  "evaluation_seconds": 40.0,
+  "evaluation_warmup_seconds": 5.0,
+  "training_episode_resets_allowed": true,
+  "motor_limits_modified": false,
+  "command_replay": {
+    "environment_fraction": 0.0,
+    "environment_assignment": [
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 1,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 2,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      },
+      {
+        "arm_pose_index": 0,
+        "replay_enabled": false,
+        "replay_sequence_index": null
+      }
+    ],
+    "sources": [],
+    "source_hashes": {},
+    "leg_actions_imitated": false,
+    "evaluation_replay_enabled": false
+  },
+  "source_hashes": {
+    "train_mounted_gait.py": "c69af2402e4551229bbe389cdf07952b8fa32599a1673bd309797cec98208df6",
+    "gait_adaptation.py": "1a7f699b6f241f755786b709515c0a850f40f57e4b7d5453eea01a9e8db8b012",
+    "mounted_robot_asset.py": "8fe15a4cb9bc1f6a55c84babea471f05f5a57e9bee4053c8816d0297c4a0c158",
+    "mounted_z1_asset.py": "969ce7b5dcea3239e160a53600f69239da2d1a2e371a2e479adba55f0b2fc7ba",
+    "run_gait_adaptation.ps1": "69f00b31de17ba774c892eb30d4ad50826088281820986fd6b1afce98cd4ff98"
+  },
+  "arm_gravity_compensation": true,
+  "arm_drive_gains": {
+    "stiffness": 800.0,
+    "damping": 34.0
+  },
+  "training_objective_changes": {
+    "height_weight": -200.0,
+    "flat_orientation_weight": -5.0,
+    "linear_velocity_weight": 3.0
+  },
+  "measured_arm_mass_kg": [
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594,
+    5.220970153808594
+  ],
+  "import_provenance": {
+    "source_urdf": "<original-workspace>\\assets\\real_arm_z1\\upstream\\unitree_ros\\robots\\z1_description\\xacro\\z1.urdf",
+    "source_xacro": "<original-workspace>\\assets\\real_arm_z1\\upstream\\unitree_ros\\robots\\z1_description\\xacro\\robot.xacro",
+    "source_constants": "<original-workspace>\\assets\\real_arm_z1\\upstream\\unitree_ros\\robots\\z1_description\\xacro\\const.xacro",
+    "upstream_repo": "https://github.com/unitreerobotics/unitree_ros.git",
+    "upstream_revision": "8ebecd883a842a4631fcfa98933fae586aeb6709",
+    "gripper_expansion": "official robot.xacro UnitreeGripper=true block; no mass/inertia scaling"
+  },
+  "baseline_evaluation_survived": 166,
+  "training_wall_seconds": 448.76599999994505,
+  "trained_checkpoint": "<original-workspace>\\artifacts\\gait_adaptation\\run_20261022_115629\\mounted_gait.pt",
+  "trained_checkpoint_sha256": "47234403cf76658274023344985e78f58df776b95c9649e9f033426cf0b1177e",
+  "environment_transitions": 1843200,
+  "evaluation_survived": {
+    "before": 166,
+    "after": 254,
+    "total": 256
+  }
+}

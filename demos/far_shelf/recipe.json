@@ -1,0 +1,25 @@
+{
+  "entrypoint": "run_z1_warehouse_demo.ps1",
+  "checkpoint": "weights/carry/mounted_gait.pt",
+  "return_checkpoint": "weights/empty_return/mounted_gait.pt",
+  "parameters": {
+    "Seed": 8,
+    "BatchCodes": "23-401",
+    "FleetTicks": 120000,
+    "NavigationBudgetSeconds": 48,
+    "DepartureClearance": true,
+    "SettleStow": true,
+    "StowBrakeSupport": true,
+    "LoadedBrakeSupport": true,
+    "PlacementWrenchQP": true,
+    "LoadedBrakeWrenchQP": true,
+    "TotalMotorWrenchQP": true,
+    "JointMotorWrenchQP": true,
+    "ContactWrench": true,
+    "PipelineReceiving": true,
+    "SettleReservation": true,
+    "ResourceWaitSpecialist": true,
+    "LoadedSupportHysteresis": true
+  },
+  "scope": "Recorded single delivery to shelf23 with second robot present; no fleet throughput claim."
+}

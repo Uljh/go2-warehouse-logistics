@@ -1,0 +1,85 @@
+{
+  "original_run": "z1_dual_handoff_supportqp_20261023_133835",
+  "seconds": 364.07,
+  "frames": 72814,
+  "physical_passed": true,
+  "evidence_complete": true,
+  "home_error_m": {
+    "dog1": 0.019868292391985544,
+    "dog2": 0.01997163655761811
+  },
+  "final_placement": {
+    "1-401": {
+      "expected_shelf": 1,
+      "planar_error_m": 0.002118559022995967,
+      "height_error_m": 1.5833656796804263e-07,
+      "final_speed_mps": 0.0,
+      "geometry_source": "measured_cuboid_orientation",
+      "footprint_within_deck": true,
+      "within_baseline_tolerance": true
+    },
+    "23-402": {
+      "expected_shelf": 23,
+      "planar_error_m": 0.005415074313540934,
+      "height_error_m": 1.764385539337887e-07,
+      "final_speed_mps": 0.0,
+      "geometry_source": "measured_cuboid_orientation",
+      "footprint_within_deck": true,
+      "within_baseline_tolerance": true
+    }
+  },
+  "guarded_contact": {
+    "dog1": {
+      "parcel_code": "1-401",
+      "measured_lift_m": 0.47912294417619705,
+      "paired_before_lift_01s": true,
+      "held_frames": 16643,
+      "held_paired_contact_fraction": 0.9769272366760801,
+      "longest_paired_contact_loss_s": 1.92,
+      "held_metric_scope": "Includes intentional opening while the runtime held flag is still true",
+      "guarded_hold_frames": 16243,
+      "guarded_hold_paired_contact_fraction": 1.0,
+      "longest_guarded_paired_contact_loss_s": 0.0,
+      "maximum_measured_normal_or_total_force_n": 9.758973121643066,
+      "finite_forces": true,
+      "minimum_carried_rise_m": 0.4471892789006233,
+      "maximum_loaded_root_displacement_m": 10.230131451377238
+    },
+    "dog2": {
+      "parcel_code": "23-402",
+      "measured_lift_m": 0.47881829738616943,
+      "paired_before_lift_01s": true,
+      "held_frames": 26343,
+      "held_paired_contact_fraction": 0.9851953080514748,
+      "longest_paired_contact_loss_s": 1.925,
+      "held_metric_scope": "Includes intentional opening while the runtime held flag is still true",
+      "guarded_hold_frames": 25943,
+      "guarded_hold_paired_contact_fraction": 0.9998072697837567,
+      "longest_guarded_paired_contact_loss_s": 0.02,
+      "maximum_measured_normal_or_total_force_n": 9.661060333251953,
+      "finite_forces": true,
+      "minimum_carried_rise_m": 0.4210398495197296,
+      "maximum_loaded_root_displacement_m": 12.03898696240398
+    }
+  },
+  "dynamic_obstacle": null,
+  "original_video_sha256": "d3d786e35c7711ba0754a371d887f6cf7ff5869f5abfcec6df9d76f6400959dc",
+  "frozen_source_count": 60,
+  "measurement_projection": {
+    "original_trace_sha256": "963c69ee99e812d5bf76b5aadf7073077e868e86199ffd0c427a6f99261ef545",
+    "original_frames": 72814,
+    "projected_trace_sha256": "b6c9b129a8222353277ac6b0c2b7d7798f3f15a928b8ec37ade2953f7cae68b3",
+    "projected_trace_fields": "Both dogs every200Hz native step; root state, phases, original jaw forces, payload state. Arm/leg action matrices and camera/range raw arrays omitted.",
+    "clock_and_original_body_force_guards_rechecked": true,
+    "minimum_height_m": {
+      "dog1": 0.3120795488357544,
+      "dog2": 0.3034778833389282
+    },
+    "maximum_measured_jaw_force_n": {
+      "dog1": 9.758973121643066,
+      "dog2": 9.661060333251953
+    },
+    "world_reset_between_orders": false
+  },
+  "limitations": "Two original-mass Z1 dogs, one image-driven contact delivery each; no streaming or long-term throughput claim."
+}

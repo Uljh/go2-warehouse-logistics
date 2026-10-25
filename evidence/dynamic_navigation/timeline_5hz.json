@@ -1,0 +1,4257 @@
+[
+  {
+    "time_s": 0.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.006906844675540924,
+          -0.9977424144744873
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.0065934062004089355,
+          1.0057835578918457
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 0.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.005822262726724148,
+          -0.9903708696365356
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.01014308538287878,
+          1.0067957639694214
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 0.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.0055047012865543365,
+          -0.9934388995170593
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.011296726763248444,
+          1.000846028327942
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 0.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.0063212234526872635,
+          -0.9985210299491882
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.01078084111213684,
+          0.9976862668991089
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 1.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.007048542611300945,
+          -1.001555323600769
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.01018540095537901,
+          0.9965398907661438
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 1.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.007801582105457783,
+          -1.0030156373977661
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.00961720198392868,
+          0.9962599873542786
+        ],
+        "phase": "starting",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 1.4000000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.048331767320632935,
+          -0.9984201788902283
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.05088195204734802,
+          1.0129492282867432
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 1.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.13380739092826843,
+          -0.9954782724380493
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.12684857845306396,
+          1.027083396911621
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 1.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.22428065538406372,
+          -0.9922409057617188
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.22060491144657135,
+          1.0354421138763428
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 2.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.31934937834739685,
+          -0.9889339804649353
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.31865471601486206,
+          1.0418678522109985
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 2.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.3543955087661743,
+          -0.9727750420570374
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.4178568720817566,
+          1.0434472560882568
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 2.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.319798082113266,
+          -0.936420738697052
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.5070671439170837,
+          1.048336386680603
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 2.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.2801710367202759,
+          -0.9003571271896362
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.6020572185516357,
+          1.0514578819274902
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 2.8000000000000003,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.2441781759262085,
+          -0.8694934844970703
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.6987813115119934,
+          1.0530250072479248
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 3.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.2013683319091797,
+          -0.8384174704551697
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.7968106269836426,
+          1.0542887449264526
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 3.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.1569613814353943,
+          -0.8081804513931274
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.8938891887664795,
+          1.0514090061187744
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 3.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.11172603070735931,
+          -0.7796556949615479
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.9911890029907227,
+          1.0520848035812378
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 3.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.06641678512096405,
+          -0.7546725869178772
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.0866280794143677,
+          1.0501933097839355
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 3.8000000000000003,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.017666928470134735,
+          -0.7280323505401611
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.1818735599517822,
+          1.0469239950180054
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 4.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.028625693172216415,
+          -0.7071381211280823
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.2793103456497192,
+          1.0425320863723755
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 4.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.08200790733098984,
+          -0.6875485777854919
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.3735990524291992,
+          1.0384700298309326
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 4.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.07341595739126205,
+          -0.6472471952438354
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.4675288200378418,
+          1.0347696542739868
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 4.6000000000000005,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.007151041179895401,
+          -0.6150626540184021
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.5603786706924438,
+          1.0318418741226196
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 4.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.07641376554965973,
+          -0.5803160667419434
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.6545600891113281,
+          1.029525637626648
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 5.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.1446927934885025,
+          -0.5488340258598328
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.7502360343933105,
+          1.0263292789459229
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 5.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.11950673162937164,
+          -0.523846447467804
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.845230221748352,
+          1.0230724811553955
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 5.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.07584120333194733,
+          -0.5075539946556091
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.9403657913208008,
+          1.0199693441390991
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 5.6000000000000005,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.03338629752397537,
+          -0.4947057366371155
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.0346016883850098,
+          1.0163911581039429
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 5.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.021038979291915894,
+          -0.4817425608634949
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.1284821033477783,
+          1.012947678565979
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 6.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.07322998344898224,
+          -0.4723774492740631
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.2234325408935547,
+          1.0099458694458008
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 6.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.12821336090564728,
+          -0.4618275463581085
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.317728042602539,
+          1.0060398578643799
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 6.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.16654154658317566,
+          -0.44512736797332764
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.4127025604248047,
+          1.0027248859405518
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 6.6000000000000005,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.13213863968849182,
+          -0.40239161252975464
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.5008373260498047,
+          0.9996376633644104
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 6.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.06994369626045227,
+          -0.378339558839798
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.575838327407837,
+          0.9963446259498596
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 7.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.006915487349033356,
+          -0.33540284633636475
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.6373560428619385,
+          0.9959629774093628
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 7.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.01880931854248047,
+          -0.3162260353565216
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.690025806427002,
+          0.9946165084838867
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 7.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.020801400765776634,
+          -0.30454546213150024
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.741950035095215,
+          0.9929975271224976
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 7.6000000000000005,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.07140719145536423,
+          -0.29681089520454407
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.7921605110168457,
+          0.9930974841117859
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 7.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.12987643480300903,
+          -0.29218921065330505
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.801384925842285,
+          0.9787757992744446
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 8.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.18481306731700897,
+          -0.2843363881111145
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.735102653503418,
+          0.9707714319229126
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 8.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.1805194765329361,
+          -0.3064010441303253
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.6419665813446045,
+          0.9694702625274658
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 8.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.1255006641149521,
+          -0.34699228405952454
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.6003401279449463,
+          0.9951401948928833
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 8.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.051559899002313614,
+          -0.3859820067882538
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.6105284690856934,
+          1.0286788940429688
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 8.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.000905502587556839,
+          -0.42829346656799316
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.6380040645599365,
+          1.0643854141235352
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 9.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.01993473991751671,
+          -0.4360490143299103
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.6732993125915527,
+          1.0967822074890137
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 9.200000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.06315385550260544,
+          -0.439765065908432
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.7104177474975586,
+          1.1260411739349365
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 9.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.11614376306533813,
+          -0.4410380423069
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.7479562759399414,
+          1.1536624431610107
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 9.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.172028049826622,
+          -0.44716957211494446
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.7854723930358887,
+          1.182900071144104
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 9.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.1720932126045227,
+          -0.4690864384174347
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.819739580154419,
+          1.2085912227630615
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 10.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.10742992162704468,
+          -0.5178577303886414
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.860114574432373,
+          1.2377417087554932
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 10.200000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          0.029421672224998474,
+          -0.5754826664924622
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.903465986251831,
+          1.2656909227371216
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 10.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.06374338269233704,
+          -0.6425570845603943
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.947331666946411,
+          1.2875697612762451
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 10.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.14969593286514282,
+          -0.7150951623916626
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.993495225906372,
+          1.3012261390686035
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 10.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.2241063416004181,
+          -0.7810112833976746
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.037048816680908,
+          1.3281444311141968
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 11.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.28214848041534424,
+          -0.8401963710784912
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.075587272644043,
+          1.3387997150421143
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 11.200000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.3276880979537964,
+          -0.8886848092079163
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1216089725494385,
+          1.3534547090530396
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 11.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.3796546161174774,
+          -0.9284508228302002
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.16545033454895,
+          1.3686641454696655
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 11.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.4280010461807251,
+          -0.9686506390571594
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1376821994781494,
+          1.3991715908050537
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 11.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.4790736138820648,
+          -1.000519871711731
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0860748291015625,
+          1.4276347160339355
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 12.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.5294803380966187,
+          -1.0280038118362427
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0336556434631348,
+          1.458053469657898
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 12.200000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.602409839630127,
+          -1.0421373844146729
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0206730365753174,
+          1.4920017719268799
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 12.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.689204752445221,
+          -1.0574305057525635
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.058150053024292,
+          1.51117742061615
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 12.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.7867676019668579,
+          -1.0701181888580322
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.10860276222229,
+          1.5239758491516113
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 12.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.8816006779670715,
+          -1.0822678804397583
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1527318954467773,
+          1.519575595855713
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 13.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.9757543206214905,
+          -1.095155954360962
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1838090419769287,
+          1.505096197128296
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 13.200000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.0636568069458008,
+          -1.1024845838546753
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2105367183685303,
+          1.484118938446045
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 13.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.153496265411377,
+          -1.1133296489715576
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2430496215820312,
+          1.4704941511154175
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 13.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.2487651109695435,
+          -1.1219961643218994
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2744994163513184,
+          1.446187973022461
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 13.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.3459604978561401,
+          -1.1303597688674927
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.285679817199707,
+          1.4003331661224365
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 14.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.4393444061279297,
+          -1.1390153169631958
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.253152847290039,
+          1.3613871335983276
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 14.200000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.5309367179870605,
+          -1.1488534212112427
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.220517635345459,
+          1.3132381439208984
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 14.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.6203159093856812,
+          -1.1567702293395996
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2047672271728516,
+          1.256639838218689
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 14.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.7067539691925049,
+          -1.1638623476028442
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.191816806793213,
+          1.2030484676361084
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 14.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.794127106666565,
+          -1.1691073179244995
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.166572332382202,
+          1.1422343254089355
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 15.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.8786367177963257,
+          -1.1759098768234253
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1519014835357666,
+          1.0785503387451172
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 15.200000000000001,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.9636059999465942,
+          -1.1810805797576904
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.143005609512329,
+          1.0169826745986938
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 15.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.045055627822876,
+          -1.1928341388702393
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.137511730194092,
+          0.9548988342285156
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 15.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.1249687671661377,
+          -1.195920705795288
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.128323793411255,
+          0.8947101831436157
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 15.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.195117712020874,
+          -1.1981348991394043
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.121182680130005,
+          0.83408123254776
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 16.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.254570484161377,
+          -1.1983795166015625
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1161201000213623,
+          0.7712357044219971
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 16.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.305511713027954,
+          -1.199472188949585
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.108588457107544,
+          0.7094128131866455
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 16.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.356492042541504,
+          -1.2026747465133667
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1041955947875977,
+          0.6476399898529053
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 16.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.4058003425598145,
+          -1.20265793800354
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1020848751068115,
+          0.5840631723403931
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 16.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.470353126525879,
+          -1.1896679401397705
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.100039482116699,
+          0.559902548789978
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 17.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.5373880863189697,
+          -1.1729660034179688
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1043221950531006,
+          0.5502698421478271
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 17.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.5987532138824463,
+          -1.1528586149215698
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.105498790740967,
+          0.5467408895492554
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 17.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.6579108238220215,
+          -1.129589319229126
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1038033962249756,
+          0.5460106730461121
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 17.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.7123215198516846,
+          -1.1131023168563843
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1033408641815186,
+          0.5462028384208679
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 17.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.7680797576904297,
+          -1.1036549806594849
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.102181911468506,
+          0.5467740893363953
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 18.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.819072961807251,
+          -1.0922391414642334
+        ],
+        "phase": "parallel_navigation",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.10107159614563,
+          0.5473006367683411
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 18.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.8205618858337402,
+          -1.0911104679107666
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.112274408340454,
+          0.5142732262611389
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 18.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.7575716972351074,
+          -1.0788720846176147
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1154544353485107,
+          0.46147242188453674
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 18.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.6889123916625977,
+          -1.0654319524765015
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1140353679656982,
+          0.4134536385536194
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 18.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.5952937602996826,
+          -1.0527667999267578
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.111171007156372,
+          0.37218958139419556
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 19.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.4949569702148438,
+          -1.060303807258606
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1085779666900635,
+          0.3377287983894348
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 19.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.3973681926727295,
+          -1.0657705068588257
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.107081651687622,
+          0.3137938678264618
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 19.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.2969040870666504,
+          -1.0710235834121704
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0960075855255127,
+          0.2857885956764221
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 19.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.19775652885437,
+          -1.0716406106948853
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0448427200317383,
+          0.2528564929962158
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 19.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -2.0950064659118652,
+          -1.0721262693405151
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0101358890533447,
+          0.22212693095207214
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 20.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.9959534406661987,
+          -1.0686229467391968
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0035080909729004,
+          0.1920243799686432
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 20.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.894929051399231,
+          -1.0704232454299927
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.9435813426971436,
+          0.14997915923595428
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 20.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.7941069602966309,
+          -1.06905198097229
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.895500421524048,
+          0.12908026576042175
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 20.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.6901147365570068,
+          -1.0677616596221924
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.882061243057251,
+          0.16291965544223785
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 20.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.5881342887878418,
+          -1.066640853881836
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.8951148986816406,
+          0.17753401398658752
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 21.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.4862276315689087,
+          -1.0639370679855347
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.8985698223114014,
+          0.1692638397216797
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 21.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.3858519792556763,
+          -1.0593974590301514
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.8314218521118164,
+          0.16895723342895508
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 21.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.2825706005096436,
+          -1.0550628900527954
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.7409827709198,
+          0.17826218903064728
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 21.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.179248571395874,
+          -1.0534497499465942
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.723203659057617,
+          0.1614084094762802
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 21.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -1.0769354104995728,
+          -1.049309253692627
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.757293939590454,
+          0.13991867005825043
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 22.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.9729101657867432,
+          -1.047210693359375
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.7960493564605713,
+          0.11435256898403168
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 22.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.8733197450637817,
+          -1.040690302848816
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.8357033729553223,
+          0.08298340439796448
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 22.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.7717881202697754,
+          -1.0370502471923828
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.8788657188415527,
+          0.053858913481235504
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 22.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.6722805500030518,
+          -1.02870512008667
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.9228572845458984,
+          0.028080647811293602
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 22.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.5696651935577393,
+          -1.024878740310669
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.9685726165771484,
+          0.003721212036907673
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 23.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.48088762164115906,
+          -1.0174973011016846
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0112287998199463,
+          -0.0201876200735569
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 23.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.4031493067741394,
+          -1.0113263130187988
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.056086540222168,
+          -0.043163131922483444
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 23.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.3414449691772461,
+          -1.004974365234375
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.102036237716675,
+          -0.0619930662214756
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 23.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.28080475330352783,
+          -1.0004191398620605
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.150296211242676,
+          -0.08452580869197845
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 23.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.22613021731376648,
+          -0.9949120283126831
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.201122999191284,
+          -0.10143572092056274
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 24.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.16727517545223236,
+          -0.9913069605827332
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2183725833892822,
+          -0.12712769210338593
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 24.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.1119406595826149,
+          -0.985444188117981
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.167980909347534,
+          -0.15859371423721313
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 24.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.053889721632003784,
+          -0.9923620223999023
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.118581533432007,
+          -0.18073002994060516
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 24.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.01853015273809433,
+          -0.9863056540489197
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0956616401672363,
+          -0.20101317763328552
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 24.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.01907256245613098,
+          -0.9873949289321899
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0590009689331055,
+          -0.16552606225013733
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 25.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.027571827173233032,
+          -0.9916964769363403
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0750961303710938,
+          -0.1341424584388733
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 25.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020907893776893616,
+          -0.9908875823020935
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1162638664245605,
+          -0.13109076023101807
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 25.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.017258120700716972,
+          -0.9856931567192078
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1653640270233154,
+          -0.1335926651954651
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 25.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.021518971771001816,
+          -0.9828944206237793
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2233784198760986,
+          -0.13891635835170746
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 25.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02030140534043312,
+          -0.9840753674507141
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.275390148162842,
+          -0.13908061385154724
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 26.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.01941845938563347,
+          -0.9862778186798096
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2656126022338867,
+          -0.09978336095809937
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 26.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.021123327314853668,
+          -0.9872375726699829
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.230081081390381,
+          -0.04274647310376167
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 26.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.021036211401224136,
+          -0.9864248037338257
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.186645269393921,
+          0.025994138792157173
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 26.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020184384658932686,
+          -0.9854846000671387
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1457180976867676,
+          0.09693794697523117
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 26.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020112065598368645,
+          -0.985223650932312
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1015408039093018,
+          0.16446468234062195
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 27.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02041706070303917,
+          -0.985643208026886
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.110546588897705,
+          0.19175735116004944
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 27.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020530547946691513,
+          -0.9860612750053406
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1462626457214355,
+          0.20488430559635162
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 27.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020499669015407562,
+          -0.9861063957214355
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1937646865844727,
+          0.20935525000095367
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 27.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020464658737182617,
+          -0.98587965965271
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2477450370788574,
+          0.21201741695404053
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 27.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020404519513249397,
+          -0.9857099652290344
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.2392380237579346,
+          0.26129740476608276
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 28.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02038552612066269,
+          -0.9857259392738342
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.1999239921569824,
+          0.31664738059043884
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 28.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020427219569683075,
+          -0.9858384132385254
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.150669813156128,
+          0.3711080253124237
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 28.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02046135812997818,
+          -0.9859024882316589
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.104644298553467,
+          0.4210855960845947
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 28.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020453330129384995,
+          -0.9858798980712891
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.0800232887268066,
+          0.4632217586040497
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 28.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020431363955140114,
+          -0.985825777053833
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.082343578338623,
+          0.49157559871673584
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 29.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020424118265509605,
+          -0.9858047366142273
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.064268112182617,
+          0.5205761194229126
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 29.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020428840070962906,
+          -0.9858206510543823
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -3.017971992492676,
+          0.5596598386764526
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 29.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020436333492398262,
+          -0.9858422875404358
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.9874629974365234,
+          0.5988249182701111
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 29.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043898031115532,
+          -0.9858527183532715
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.9359195232391357,
+          0.630050778388977
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 29.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.0204362440854311,
+          -0.9858419895172119
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.8456408977508545,
+          0.6629638075828552
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 30.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020433614030480385,
+          -0.985831618309021
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.7500030994415283,
+          0.6936665773391724
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 30.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020431037992239,
+          -0.9858291149139404
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.651893377304077,
+          0.7252364754676819
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 30.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020431803539395332,
+          -0.9858364462852478
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.5541813373565674,
+          0.7526143789291382
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 30.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020436786115169525,
+          -0.9858397245407104
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.452855348587036,
+          0.7763830423355103
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 30.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043633721768856,
+          -0.9858406782150269
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.354868173599243,
+          0.7965096235275269
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 31.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043462172150612,
+          -0.9858360886573792
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.2528412342071533,
+          0.8141551613807678
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 31.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020433751866221428,
+          -0.9858351349830627
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.15401029586792,
+          0.8296218514442444
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 31.400000000000002,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434042438864708,
+          -0.985835611820221
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -2.053093433380127,
+          0.8434112071990967
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 31.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.0204347912222147,
+          -0.9858378767967224
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.9535284042358398,
+          0.8560130000114441
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 31.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043513022363186,
+          -0.9858391880989075
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.8541474342346191,
+          0.8685336112976074
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 32.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043381705880165,
+          -0.9858385324478149
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.754270076751709,
+          0.8794015049934387
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 32.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434990525245667,
+          -0.9858361482620239
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.6545122861862183,
+          0.8905320763587952
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 32.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043546363711357,
+          -0.985835611820221
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.552355408668518,
+          0.8977317810058594
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 32.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020433226600289345,
+          -0.9858382940292358
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.4534245729446411,
+          0.9081141948699951
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 32.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434504374861717,
+          -0.9858368635177612
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.3499716520309448,
+          0.912908136844635
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 33.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020435962826013565,
+          -0.9858378767967224
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.2521719932556152,
+          0.9235616326332092
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 33.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434387028217316,
+          -0.9858366250991821
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.1500946283340454,
+          0.9289591908454895
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 33.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020433662459254265,
+          -0.9858371019363403
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -1.0527147054672241,
+          0.938511312007904
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 33.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434848964214325,
+          -0.9858363270759583
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.9490332007408142,
+          0.9415454268455505
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 33.8,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043532021343708,
+          -0.9858368635177612
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.8503302931785583,
+          0.9497206807136536
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 34.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434221252799034,
+          -0.985836923122406
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.7483245134353638,
+          0.9552156925201416
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 34.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434657111763954,
+          -0.9858369827270508
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.6509517431259155,
+          0.965053141117096
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 34.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434945821762085,
+          -0.9858366250991821
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.5499477386474609,
+          0.9719128608703613
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 34.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043468877673149,
+          -0.9858363270759583
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.4651564657688141,
+          0.9803066849708557
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 34.800000000000004,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043449878692627,
+          -0.9858369827270508
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.3890298008918762,
+          0.9855666160583496
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 35.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434677600860596,
+          -0.9858375787734985
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.3318539261817932,
+          0.9942286610603333
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 35.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020435156300663948,
+          -0.9858371615409851
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.27298909425735474,
+          1.0005024671554565
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 35.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434293895959854,
+          -0.9858372807502747
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.21731847524642944,
+          1.0083611011505127
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 35.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434724166989326,
+          -0.9858368635177612
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.15699556469917297,
+          1.0126084089279175
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 35.800000000000004,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434247329831123,
+          -0.9858375191688538
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.10036803781986237,
+          1.0136078596115112
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 36.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043461799621582,
+          -0.9858371615409851
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.040781453251838684,
+          1.010602593421936
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 36.2,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434537902474403,
+          -0.9858376383781433
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.017390811815857887,
+          1.0189810991287231
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 36.4,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434627309441566,
+          -0.9858357310295105
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.02362138032913208,
+          1.0216610431671143
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 36.6,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043381705880165,
+          -0.9858366250991821
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.028254952281713486,
+          1.0180643796920776
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 36.800000000000004,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.02043399214744568,
+          -0.9858369827270508
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.017072517424821854,
+          1.0175188779830933
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  },
+  {
+    "time_s": 37.0,
+    "robots": {
+      "dog1": {
+        "xy": [
+          -0.020434340462088585,
+          -0.9858369827270508
+        ],
+        "phase": "smoke_complete",
+        "held": false,
+        "order": null
+      },
+      "dog2": {
+        "xy": [
+          -0.017422713339328766,
+          1.0211683511734009
+        ],
+        "phase": "returning",
+        "held": false,
+        "order": null
+      }
+    }
+  }
+]

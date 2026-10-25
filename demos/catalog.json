@@ -1,0 +1,200 @@
+{
+  "dual_delivery": {
+    "original_run": "z1_dual_handoff_supportqp_20261023_133835",
+    "seconds": 364.07,
+    "frames": 72814,
+    "physical_passed": true,
+    "evidence_complete": true,
+    "home_error_m": {
+      "dog1": 0.019868292391985544,
+      "dog2": 0.01997163655761811
+    },
+    "final_placement": {
+      "1-401": {
+        "expected_shelf": 1,
+        "planar_error_m": 0.002118559022995967,
+        "height_error_m": 1.5833656796804263e-07,
+        "final_speed_mps": 0.0,
+        "geometry_source": "measured_cuboid_orientation",
+        "footprint_within_deck": true,
+        "within_baseline_tolerance": true
+      },
+      "23-402": {
+        "expected_shelf": 23,
+        "planar_error_m": 0.005415074313540934,
+        "height_error_m": 1.764385539337887e-07,
+        "final_speed_mps": 0.0,
+        "geometry_source": "measured_cuboid_orientation",
+        "footprint_within_deck": true,
+        "within_baseline_tolerance": true
+      }
+    },
+    "guarded_contact": {
+      "dog1": {
+        "parcel_code": "1-401",
+        "measured_lift_m": 0.47912294417619705,
+        "paired_before_lift_01s": true,
+        "held_frames": 16643,
+        "held_paired_contact_fraction": 0.9769272366760801,
+        "longest_paired_contact_loss_s": 1.92,
+        "held_metric_scope": "Includes intentional opening while the runtime held flag is still true",
+        "guarded_hold_frames": 16243,
+        "guarded_hold_paired_contact_fraction": 1.0,
+        "longest_guarded_paired_contact_loss_s": 0.0,
+        "maximum_measured_normal_or_total_force_n": 9.758973121643066,
+        "finite_forces": true,
+        "minimum_carried_rise_m": 0.4471892789006233,
+        "maximum_loaded_root_displacement_m": 10.230131451377238
+      },
+      "dog2": {
+        "parcel_code": "23-402",
+        "measured_lift_m": 0.47881829738616943,
+        "paired_before_lift_01s": true,
+        "held_frames": 26343,
+        "held_paired_contact_fraction": 0.9851953080514748,
+        "longest_paired_contact_loss_s": 1.925,
+        "held_metric_scope": "Includes intentional opening while the runtime held flag is still true",
+        "guarded_hold_frames": 25943,
+        "guarded_hold_paired_contact_fraction": 0.9998072697837567,
+        "longest_guarded_paired_contact_loss_s": 0.02,
+        "maximum_measured_normal_or_total_force_n": 9.661060333251953,
+        "finite_forces": true,
+        "minimum_carried_rise_m": 0.4210398495197296,
+        "maximum_loaded_root_displacement_m": 12.03898696240398
+      }
+    },
+    "dynamic_obstacle": null,
+    "original_video_sha256": "d3d786e35c7711ba0754a371d887f6cf7ff5869f5abfcec6df9d76f6400959dc",
+    "frozen_source_count": 60,
+    "measurement_projection": {
+      "original_trace_sha256": "963c69ee99e812d5bf76b5aadf7073077e868e86199ffd0c427a6f99261ef545",
+      "original_frames": 72814,
+      "projected_trace_sha256": "b6c9b129a8222353277ac6b0c2b7d7798f3f15a928b8ec37ade2953f7cae68b3",
+      "projected_trace_fields": "Both dogs every200Hz native step; root state, phases, original jaw forces, payload state. Arm/leg action matrices and camera/range raw arrays omitted.",
+      "clock_and_original_body_force_guards_rechecked": true,
+      "minimum_height_m": {
+        "dog1": 0.3120795488357544,
+        "dog2": 0.3034778833389282
+      },
+      "maximum_measured_jaw_force_n": {
+        "dog1": 9.758973121643066,
+        "dog2": 9.661060333251953
+      },
+      "world_reset_between_orders": false
+    },
+    "limitations": "Two original-mass Z1 dogs, one image-driven contact delivery each; no streaming or long-term throughput claim."
+  },
+  "far_shelf": {
+    "original_run": "z1_far_single_retained_support_20261024_0057",
+    "seconds": 247.155,
+    "frames": 49431,
+    "physical_passed": true,
+    "evidence_complete": true,
+    "home_error_m": {
+      "dog1": 0.01965062111955728,
+      "dog2": 0.018699986200079295
+    },
+    "final_placement": {
+      "expected_shelf": 23,
+      "planar_error_m": 0.005419554856244429,
+      "height_error_m": 1.7056610879251366e-07,
+      "final_speed_mps": 0.0,
+      "geometry_source": "measured_cuboid_orientation",
+      "footprint_within_deck": true,
+      "within_baseline_tolerance": true
+    },
+    "guarded_contact": {
+      "parcel_code": "23-401",
+      "measured_lift_m": 0.47921912372112274,
+      "paired_before_lift_01s": true,
+      "held_frames": 21974,
+      "held_paired_contact_fraction": 0.9824337853827251,
+      "longest_paired_contact_loss_s": 1.93,
+      "held_metric_scope": "Includes intentional opening while the runtime held flag is still true",
+      "guarded_hold_frames": 21574,
+      "guarded_hold_paired_contact_fraction": 1.0,
+      "longest_guarded_paired_contact_loss_s": 0.0,
+      "maximum_measured_normal_or_total_force_n": 9.140264511108398,
+      "finite_forces": true,
+      "minimum_carried_rise_m": 0.44283197820186615,
+      "maximum_loaded_root_displacement_m": 12.038953129538852
+    },
+    "dynamic_obstacle": null,
+    "original_video_sha256": "4c541884aeba148c52453ff227e6ba1f44437175e999701d07f3134410cba54e",
+    "frozen_source_count": 62,
+    "measurement_projection": {
+      "original_trace_sha256": "fc941a595911c606f29a5e7fd4ab0ad762ee8120e68d98c63bb75856dd379726",
+      "original_frames": 49431,
+      "projected_trace_sha256": "18cb3d5cbdb8f3dde1438a1dce15e5d6dfa6bd33f798e94a4a17e8f1b7514951",
+      "projected_trace_fields": "Both dogs every200Hz native step; root state, phases, original jaw forces, payload state. Arm/leg action matrices and camera/range raw arrays omitted.",
+      "clock_and_original_body_force_guards_rechecked": true,
+      "minimum_height_m": {
+        "dog1": 0.3165043294429779,
+        "dog2": 0.3166854679584503
+      },
+      "maximum_measured_jaw_force_n": {
+        "dog1": 9.140264511108398,
+        "dog2": 0.0
+      },
+      "world_reset_between_orders": false
+    },
+    "limitations": "Single original-mass Z1 order: image pickup, contact carry, shelf release/retreat, stow and return. Second dog present but no two-dog throughput claim."
+  },
+  "dynamic_navigation": {
+    "original_run": "z1_dynamic_cart_20261024_e_perturbed_range",
+    "seconds": 37.17,
+    "frames": 7434,
+    "physical_passed": true,
+    "evidence_complete": true,
+    "home_error_m": {
+      "dog1": 0.024861688493970194,
+      "dog2": 0.03207042826364727
+    },
+    "final_placement": null,
+    "guarded_contact": {},
+    "dynamic_obstacle": {
+      "enabled": true,
+      "scenario": "Scripted kinematic cart crossing both front aisles",
+      "navigation_inputs": "Existing PhysX ray ranges only; fixture pose/clock/identity are evaluation-only",
+      "not_slam": true,
+      "not_learned_obstacle_policy": true,
+      "speed_mps": 0.28,
+      "size_m": [
+        0.6,
+        0.8,
+        0.75
+      ],
+      "elapsed_s": 37.17000000000056,
+      "maximum_fixture_contact_n": 0.0,
+      "contact_limit_n": 1.0,
+      "maximum_displacement_m": 4.599599885940552,
+      "observed_scans": {
+        "dog1": 233,
+        "dog2": 349
+      },
+      "trace_samples": 7434,
+      "trace_sha256": "f2af222913746fd8d133e8a00dcb9cfabf7d6067a247c537c2150653fbbd8ccc",
+      "exposure_verified": true,
+      "scope": "Dynamic navigation exposure only; full success also requires original robot, route and home guards"
+    },
+    "original_video_sha256": "7a623ae4dc486ae596e1380aa868079211baa6b2b846fb2a862c89953e7e2647",
+    "frozen_source_count": 66,
+    "measurement_projection": {
+      "original_trace_sha256": "1ab7630f0e9555b86a9dbf14b220122a2d144544db730952bead64fc7b88fc0c",
+      "original_frames": 7434,
+      "projected_trace_sha256": "d39834ab9141ceda0a1867387d70532292a4da7ab72ed90e3ae65958692d31c8",
+      "projected_trace_fields": "Both dogs every200Hz native step; root state, phases, original jaw forces, payload state. Arm/leg action matrices and camera/range raw arrays omitted.",
+      "clock_and_original_body_force_guards_rechecked": true,
+      "minimum_height_m": {
+        "dog1": 0.2970660924911499,
+        "dog2": 0.3140106797218323
+      },
+      "maximum_measured_jaw_force_n": {
+        "dog1": 0.0,
+        "dog2": 0.0
+      },
+      "world_reset_between_orders": false
+    },
+    "limitations": "Original-mass Z1 two-dog unloaded dynamic-cart navigation; scripted kinematic obstacle, PhysX ranging, simulation localization. Not cargo delivery, SLAM or learned obstacle motion."
+  }
+}

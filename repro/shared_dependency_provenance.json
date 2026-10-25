@@ -1,0 +1,653 @@
+{
+  "z1_contact_control.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_contact_control.py",
+    "sha256": "9b1403e991bf3c365c955d883dd4e077fc6df69db544e120a52d97b13cd394dd",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "import_z1_isaac.py": {
+    "source": "go2_logistics\\import_z1_isaac.py",
+    "sha256": "5080e1cff1bc3d6c1e4d86fc3633d8d30b356fe9ef77ddec13e3c554ca0b4807",
+    "originally_frozen_in": []
+  },
+  "z1_asset.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_asset.py",
+    "sha256": "7a90ed8cc23eb40fd15fa3f657a0e6edf9eaf775f252d4e9281b0403f9097064",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "stow_brake_support.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\stow_brake_support.py",
+    "sha256": "8ca7fb99c4f8c8aae989bd45349cbfd39146df9c675aba8d37b48631cc4087fe",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "compact_receiving.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\compact_receiving.py",
+    "sha256": "c0b8f1a8516cb5316b1df6255b3a28827cc3ed68a48d6ecc17b9fae093453064",
+    "originally_frozen_in": [
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "interfaces.py": {
+    "source": "go2_logistics\\interfaces.py",
+    "sha256": "de58de48ebc5185aa501e109411904f922c34ce5fff9130d0b4d254bdd5caa97",
+    "originally_frozen_in": []
+  },
+  "leg_target_guard.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\leg_target_guard.py",
+    "sha256": "101aee0a0737384dfccdbbace96cc1628f11e559a7f7d92da4d788b77a3e62c6",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "arm_kinematics.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\arm_kinematics.py",
+    "sha256": "819a7c6f50c14c7cccd5f6848dde1e40b03e63c38016b75fee3297181a0f87bb",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "video_recording.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\video_recording.py",
+    "sha256": "c81af20469ffd3f1e3922176e2a13c48d9fbe4d16f9aa47d6a1c5e21872c108c",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "fleet_gui_check.py": {
+    "source": "go2_logistics\\fleet_gui_check.py",
+    "sha256": "b6ab9293d009de9603a9a08b07f93083a577eb5c20629b33b600f9bb82ac6fd4",
+    "originally_frozen_in": []
+  },
+  "isaac_policy_runner.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\isaac_policy_runner.py",
+    "sha256": "b01cdf00b28b6684171bbcfbccd640737ca8ddc3fef5934e452397c0efd92a9f",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf"
+    ]
+  },
+  "drop_recovery.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\drop_recovery.py",
+    "sha256": "7f67baa60298c8a9a8f6e7a2930ca422da6301510b4724e178c7266b1016f19e",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "recovery_views.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\recovery_views.py",
+    "sha256": "b8e5f97401c70858daf4b9cdfb1cac16e223a05677679de1c66d8ce6776dfe34",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "camera_perception.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\camera_perception.py",
+    "sha256": "139420d7506b2fa72c9482856c29423b972e409dc940cff470b521415767364d",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "parcel_geometry.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\parcel_geometry.py",
+    "sha256": "e7eff84506a7519e54729f754a6a8c047dbdd65b1a799f919479d7fd66f9f9e7",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "observation_archive.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\observation_archive.py",
+    "sha256": "0bd111ef89037d3363ed161d90996d239e6f3941e36ab8818080e14e92a6164e",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "sorting_layout.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\sorting_layout.py",
+    "sha256": "f6c246b2495c0becacbfd355cbd7d96907d94bff2fa52b5f29f0399e1279301c",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "sorting_scene.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\sorting_scene.py",
+    "sha256": "af62471896f3a462535ca5134d0e0315c482a1b5c64414613cde68cf8a95867b",
+    "originally_frozen_in": [
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "parcel_plane_geometry.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\parcel_plane_geometry.py",
+    "sha256": "66a8cc259f785839a6ecd6d3c882f2565332863c5b6fa52b868bfe3e6606b799",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "contact_righting.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\contact_righting.py",
+    "sha256": "cdf1d76af661309e7017e5d69fdce856b790a4bac508070f7736bb0cd25dd835",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "sim.py": {
+    "source": "go2_logistics\\sim.py",
+    "sha256": "3c82f61c38d168aa0651b581789c201458e8aa7277c9a6c0aa1f9d2b45445bf6",
+    "originally_frozen_in": []
+  },
+  "physics_resolution.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\physics_resolution.py",
+    "sha256": "ddf886a68872dcb49505cacb5076e22a67b7ebadc14ec3831301c508b6a81345",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "mission_recorder.py": {
+    "source": "go2_logistics\\mission_recorder.py",
+    "sha256": "9b1c61c4df11a522ed43c730f6f4598d676b91c1500a1f26dc301f8b2a7e1f5d",
+    "originally_frozen_in": []
+  },
+  "navigation_overlay.py": {
+    "source": "go2_logistics\\navigation_overlay.py",
+    "sha256": "f13e38a4af1a21a708147740b17e72a00409eb781794782f85e3779b857bb944",
+    "originally_frozen_in": []
+  },
+  "mission.py": {
+    "source": "go2_logistics\\mission.py",
+    "sha256": "68bbaac8505351f715595e01e7cdd671b084d05c7bdd9070bb4ef11f17a35f28",
+    "originally_frozen_in": []
+  },
+  "sensor_navigation.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\sensor_navigation.py",
+    "sha256": "a9601f90993c4026342dface05739a0403286584654fa0cdc3e8030d6eae7c59",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf"
+    ]
+  },
+  "range_measurement.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\range_measurement.py",
+    "sha256": "759bd33101a3549f431d7b5402f309f415fef85c2719706c242698f32fce68ea",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "travel_heading.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\travel_heading.py",
+    "sha256": "65b3e9aa7069571a8aef8b08e5d73954ee2dc77846fd6797bf804256f599a1b2",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "mounted_robot_asset.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\mounted_robot_asset.py",
+    "sha256": "8fe15a4cb9bc1f6a55c84babea471f05f5a57e9bee4053c8816d0297c4a0c158",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "isaac_entrypoint.py": {
+    "source": "go2_logistics\\isaac_entrypoint.py",
+    "sha256": "d085a280595627323c5c172e8cf3a5548efcd9797932f22ce6407a0bd2116cbd",
+    "originally_frozen_in": []
+  },
+  "adapters.py": {
+    "source": "go2_logistics\\adapters.py",
+    "sha256": "91f17e71225691c66ca8a1e7ccfc8c3d7db161ef257c24bf1ecaa6d6814f2070",
+    "originally_frozen_in": []
+  },
+  "fleet_runtime.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\fleet_runtime.py",
+    "sha256": "70e90340957b6b65989f36abf82df1720b810b60442185c863d230e1fc6f0c46",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "return_gait_policy.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\return_gait_policy.py",
+    "sha256": "ce755d87697de18613a10a79263e919bba3ce2415290a10de21c22138f3a49b6",
+    "originally_frozen_in": [
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "yaw_brake.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\yaw_brake.py",
+    "sha256": "d74c2db009197af293e1af43080000a44f3ae9ea18ac391e0f589d4a756c3b9b",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "balance_recovery.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\balance_recovery.py",
+    "sha256": "8c758d9871f998b011c08e33e3fc858e47dec2eed125401e8efb1c437b0b4eee",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "touchdown_ik.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\touchdown_ik.py",
+    "sha256": "89c326ca88b23ddec3c61333a0e8b7ada7b981483ef638f5ad144da133fa69cd",
+    "originally_frozen_in": [
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "physical_manipulation.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\physical_manipulation.py",
+    "sha256": "cf19b01082facf1b4ee7c3c1a52c12c5c39e1fc23f85f8ddf71fe48b69781ea9",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "recovery_targets.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\recovery_targets.py",
+    "sha256": "9dd12ff68f69d969af61b16dfa40fa05a8842279a571b901a07a8d296c7088bd",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "motor_target_support.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\motor_target_support.py",
+    "sha256": "40f9f05ac4082f9cddaa903b5d199d394c8263a29384716c131bcf2ceb5b0024",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "fleet_drop_recovery.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\fleet_drop_recovery.py",
+    "sha256": "be00fc71b647de5482441e2815e7664453662901918fe0f44065a01f55463ce2",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "waypoint_ramp.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\waypoint_ramp.py",
+    "sha256": "f7e46616c07c98675c425d0b868c3791746d56556716ca8112ae751af77a0a57",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "fleet.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\fleet.py",
+    "sha256": "b5801361faccf64684ba13ae768f8fa65f497e6888e3cb2ba5da4e5228cfbdda",
+    "originally_frozen_in": [
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "mounted_z1_asset.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\mounted_z1_asset.py",
+    "sha256": "b9679424eac880fa02088e9d30423120ef098428d26a426245fb91bdc1684e39",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "feed_readiness.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\feed_readiness.py",
+    "sha256": "22d124857ea917997e1c317c9040622b99a7434e07d7eda36dff1d893e29f610",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "z1_fleet_arm.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_fleet_arm.py",
+    "sha256": "b38759d5108ecb6c8bd7b8d4450ec8260cb68bbc6a4de27b16794f95a24a546f",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "z1_contact_probe.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_contact_probe.py",
+    "sha256": "4a1a7ecb7be057475dff4616b2e2a3b8a8276750fbb26d1f20eb275f9d7ea831",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "z1_kinematics.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_kinematics.py",
+    "sha256": "c2fb495ee92c4909018e41870574ef5bb494ca495ae98795409168710955b58a",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "z1_carry_control.py": {
+    "source": "go2_logistics\\z1_carry_control.py",
+    "sha256": "282385b24c3cc6facda1d4ee82bd0a87ebafe90815c23ae4c989acfd798a95b9",
+    "originally_frozen_in": []
+  },
+  "z1_world_target.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_world_target.py",
+    "sha256": "d623759d24381d22d459360837cc3f601fc0bc964dde1663edb72bbd17ecc8c7",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "z1_contact_wrench.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_contact_wrench.py",
+    "sha256": "1e2033b5cd408ef8fb7b68de177d18dfbf2d1ac9db0114f2baf09233d1b0779f",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "z1_mounted_contact.py": {
+    "source": "go2_logistics\\z1_mounted_contact.py",
+    "sha256": "93aeef61b605dd6663c0faf8ebc98390fb431bf89409663ca390ef97dae71b46",
+    "originally_frozen_in": []
+  },
+  "receiving_pipeline.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\receiving_pipeline.py",
+    "sha256": "0a83079400d65f2dcfccdb68faf769d68b25989cde7f073b6f9bd7282ddfe0cb",
+    "originally_frozen_in": [
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "streaming_feed.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\streaming_feed.py",
+    "sha256": "9d9c54fbdba6edc216728b8a6124240f266a4a35efb1312b0c91056fc8eb8d08",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "fleet_gui.py": {
+    "source": "go2_logistics\\fleet_gui.py",
+    "sha256": "53b3b6e9513c41746703eed82090c9c51b32bb983dfc39af5c6a4557a7ebd3e4",
+    "originally_frozen_in": []
+  },
+  "conveyor_control.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\conveyor_control.py",
+    "sha256": "90189c5cd6f90064adf2bb6ee4818864cc86516750dc9c34b14bfcb415ec583f",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "z1_warehouse_backend.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\z1_warehouse_backend.py",
+    "sha256": "a6bffccf57bc5044064b896ed8f1d00270770a032e472181fbe87bcbf9edf45d",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "status_io.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\status_io.py",
+    "sha256": "8a80b887e8a17910ff4350e32b2ac80b6299442398432eb9e9900fb9dac0a463",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "run_isolation.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\run_isolation.py",
+    "sha256": "c405ceeb11914917aff03f9410d8e2e4889fa99546a639c165227208161d41ce",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "stance_kinematics.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\stance_kinematics.py",
+    "sha256": "447c57ae650bdd9086a8bfb522f144c225cc9db844e2fb15d654162ef19a3a64",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "localization.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\localization.py",
+    "sha256": "bd06139716bf01d8b7f7ab9c4db0569e6bc65dbd3291adc10faf1d18ca094e40",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "policy_provenance.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\policy_provenance.py",
+    "sha256": "d714b825cba22e56dd47ba13df5debdb9cf3d58362cd7db908719a491e68e6db",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "support_exit.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\support_exit.py",
+    "sha256": "fef85e14e54c33c7a9780b728022734e29d7602fe6fefa1e054d3c4b8f4b218f",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "conveyor.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\conveyor.py",
+    "sha256": "c0843c528ec40419836fbfc9f53ccd32b3f86c5c7e5a7b75939e574230ea8cc3",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "visual_gripper.py": {
+    "source": "go2_logistics\\visual_gripper.py",
+    "sha256": "e32eb566a9306de62a5c3ef16391c369961909d9fc24d729ca00ceed49fb204a",
+    "originally_frozen_in": []
+  },
+  "occlusion.py": {
+    "source": "go2_logistics\\occlusion.py",
+    "sha256": "d417cdc0156836641d738e91e9ce04b319e880feab520821c2af32441bd03bc1",
+    "originally_frozen_in": []
+  },
+  "dynamic_obstacle.py": {
+    "source": "artifacts\\fleet\\z1_dynamic_cart_20261024_e_perturbed_range\\sources\\dynamic_obstacle.py",
+    "sha256": "7a4bc5f6f7f3928ed8e51f1abef60c0053afa8472360c4a58d93ca95369c32a9",
+    "originally_frozen_in": [
+      "dynamic_navigation"
+    ]
+  },
+  "warehouse_scene.py": {
+    "source": "go2_logistics\\warehouse_scene.py",
+    "sha256": "a1b0b01822a49dceee4f7e6e9bc2ae0893e10cdd299b8b1b0e57816355438e99",
+    "originally_frozen_in": []
+  },
+  "local_ground.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\local_ground.py",
+    "sha256": "62c99fb734b3b854ff8802a52fcd0689570cdb06851877fd6ac2d4a3ddb3f03e",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "local_ground_importer.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\local_ground_importer.py",
+    "sha256": "4954cef7fe37805ef7b2cc58b443a52e9d0a2ba59bdcac75b4a2219f33053b75",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "prepare_warehouse_asset.py": {
+    "source": "go2_logistics\\prepare_warehouse_asset.py",
+    "sha256": "a945dd7ba28ff36ba0ce42723e009bd32b78a14802bda423871383415dbbd1c2",
+    "originally_frozen_in": []
+  },
+  "indoor_warehouse.py": {
+    "source": "go2_logistics\\indoor_warehouse.py",
+    "sha256": "8945166deee6db28a71af154d1379777e4d7ff246ff14c1cfd889fbb3530c831",
+    "originally_frozen_in": []
+  },
+  "run_warehouse_demo.ps1": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\run_warehouse_demo.ps1",
+    "sha256": "c06b7be5ba9ab4b2fa63911bf768b680581ff58f42d679925efe3f875b058705",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "check_fleet_result.ps1": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\check_fleet_result.ps1",
+    "sha256": "78dfbed85c87ee61c28aa1f67d3a4ef56e4ac3ee6386718df749edcceecad675",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "analyze_fleet.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\analyze_fleet.py",
+    "sha256": "bca35977a302d8075b2145a5a8a512f7aa89fafef232182d9d022d163b2adb65",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "dynamic_yield.py": {
+    "source": "artifacts\\fleet\\z1_dynamic_cart_20261024_e_perturbed_range\\sources\\dynamic_yield.py",
+    "sha256": "c2129cc3e0b7addf6bcfefb76b721b8412eef69f43ef429b79c6b9b239bb362a",
+    "originally_frozen_in": [
+      "dynamic_navigation"
+    ]
+  },
+  "__init__.py": {
+    "source": "go2_logistics\\__init__.py",
+    "sha256": "f68cc5af31df0a7385af32fd96a935b53896eaa3d8e5b8e2dbdae2dbe00f14d0",
+    "originally_frozen_in": []
+  },
+  "analyze_receiving_pipeline.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\analyze_receiving_pipeline.py",
+    "sha256": "50c135e8e128632460c26799cbd1e694cd5a93721d435828ad8a699282d5026e",
+    "originally_frozen_in": [
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "run_z1_warehouse_demo.ps1": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\run_z1_warehouse_demo.ps1",
+    "sha256": "3eebfe114c2ac95f95ed0088152e8bd3e4fff142e0bb76b21c87574ad02c31f0",
+    "originally_frozen_in": [
+      "far_shelf"
+    ]
+  },
+  "analyze_segment_transit.py": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\analyze_segment_transit.py",
+    "sha256": "6c1185fe941d2f57bff8662f3ee9627833baccc525c044b710a491c1018f6ca1",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "carry_gait_policy.py": {
+    "source": "artifacts\\fleet\\z1_dynamic_cart_20261024_e_perturbed_range\\sources\\carry_gait_policy.py",
+    "sha256": "84b6eae892a6af84ae97adeeecb715c2fb0ec525eedf6a10e9adb13a31b842c2",
+    "originally_frozen_in": [
+      "dynamic_navigation"
+    ]
+  },
+  "run_streaming_demo.ps1": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\run_streaming_demo.ps1",
+    "sha256": "129299c174f7dad1542fe4c8472c4e37c6424691292cf2c87e8f0ced042d57b1",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "run_go2_mission.ps1": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\run_go2_mission.ps1",
+    "sha256": "874853f1e54e59a72c0156d82fd1eddb6bf9799dc3b4a7826078db5f01d6774e",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "run_localized_demo.ps1": {
+    "source": "artifacts\\fleet\\z1_far_single_retained_support_20261024_0057\\sources\\run_localized_demo.ps1",
+    "sha256": "2a3bc0bd1422f9fb647cbfa771e6fd1b1f9659d715d3150a963bc1765d971269",
+    "originally_frozen_in": [
+      "dual_delivery",
+      "far_shelf",
+      "dynamic_navigation"
+    ]
+  },
+  "docking_axis.py": {
+    "source": "artifacts\\fleet\\z1_dynamic_cart_20261024_e_perturbed_range\\sources\\docking_axis.py",
+    "sha256": "3013d91b8d2b44faa77296c4f6eeddd73571b4aea06e1cb4fdbec733d837746c",
+    "originally_frozen_in": [
+      "dynamic_navigation"
+    ]
+  }
+}

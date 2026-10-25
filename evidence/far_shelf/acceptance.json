@@ -1,0 +1,248 @@
+{
+  "original_report_sha256": "dc491d00abced1beb0d0ce2a0c015be28588d12f379c7b0b7ab4bb7681d8817d",
+  "publication_transform": "Only original machine/user path prefixes replaced; numerical results and verdicts retained.",
+  "report": {
+    "scope": "Single original-mass Z1 order: image pickup, contact carry, shelf release/retreat, stow and return. Second dog present but no two-dog throughput claim.",
+    "configured_codes": [
+      "23-401"
+    ],
+    "fleet_result_sha256": "4025c203c0e30ef306210909b789a6456352bd04bcf0ff5364949af28ef22a55",
+    "physical_passed": true,
+    "evidence_complete": true,
+    "single_order_passed": true,
+    "checks": {
+      "measured_close_completion": true,
+      "placement_wrench_scope": true,
+      "loaded_brake_support_scope": true,
+      "empty_stow_measured_stop": true,
+      "reported_complete_without_errors": true,
+      "one_shared_world_without_order_resets": true,
+      "original_mass_free_bases_no_payload_bindings": true,
+      "unchanged_force_and_placement_guards": true,
+      "camera_identity_and_depth_geometry": true,
+      "complete_safe_control_trace": true,
+      "paired_before_lift_and_guarded_hold": true,
+      "physical_lift_and_measured_loaded_travel": true,
+      "full_release_and_retreat_sequence": true,
+      "correct_shelf_after_departure_and_return": true,
+      "both_dogs_back_at_home": true
+    },
+    "record_checks": {
+      "return_gait_identity_and_scope": true,
+      "frozen_runtime_sources_match": true,
+      "frozen_checkpoint_matches": true,
+      "all_three_full_videos_decoded": true
+    },
+    "arm_phases": [
+      "waiting",
+      "prepare_grasp_posture",
+      "pregrasp",
+      "approach",
+      "closing_fingers",
+      "lift",
+      "carried",
+      "place_preapproach",
+      "lowering",
+      "opening_fingers",
+      "retreat",
+      "retreat_clearance",
+      "settling",
+      "released",
+      "stow_empty_arm"
+    ],
+    "phase_durations_s": {
+      "waiting": 16.28,
+      "prepare_grasp_posture": 3.6,
+      "pregrasp": 8.695,
+      "approach": 16.0,
+      "closing_fingers": 24.0,
+      "lift": 12.0,
+      "carried": 85.87,
+      "place_preapproach": 5.0,
+      "lowering": 5.0,
+      "opening_fingers": 2.0,
+      "retreat": 5.0,
+      "retreat_clearance": 2.0,
+      "settling": 2.0,
+      "released": 1.965,
+      "stow_empty_arm": 57.745000000000005
+    },
+    "contact_measurements": {
+      "parcel_code": "23-401",
+      "measured_lift_m": 0.47921912372112274,
+      "paired_before_lift_01s": true,
+      "held_frames": 21974,
+      "held_paired_contact_fraction": 0.9824337853827251,
+      "longest_paired_contact_loss_s": 1.93,
+      "held_metric_scope": "Includes intentional opening while the runtime held flag is still true",
+      "guarded_hold_frames": 21574,
+      "guarded_hold_paired_contact_fraction": 1.0,
+      "longest_guarded_paired_contact_loss_s": 0.0,
+      "maximum_measured_normal_or_total_force_n": 9.140264511108398,
+      "finite_forces": true,
+      "minimum_carried_rise_m": 0.44283197820186615,
+      "maximum_loaded_root_displacement_m": 12.038953129538852
+    },
+    "final_placement": {
+      "expected_shelf": 23,
+      "planar_error_m": 0.005419554856244429,
+      "height_error_m": 1.7056610879251366e-07,
+      "final_speed_mps": 0.0,
+      "geometry_source": "measured_cuboid_orientation",
+      "footprint_within_deck": true,
+      "within_baseline_tolerance": true
+    },
+    "final_home_error_m": {
+      "dog1": 0.01965062111955728,
+      "dog2": 0.018699986200079295
+    },
+    "forbidden_arm_calls": [],
+    "return_gait_audit": {
+      "enabled": true,
+      "empty_transit_enabled": false,
+      "resource_wait_enabled": true,
+      "repeat_pickup_enabled": false,
+      "idle_control_enabled": false,
+      "independently_checked_idle_frames": {
+        "dog1": 0,
+        "dog2": 0
+      },
+      "verified_home_returns": {
+        "dog1": 1,
+        "dog2": 0
+      },
+      "passed": true,
+      "checks": {
+        "checkpoint": true,
+        "training_manifest": true,
+        "configuration": true,
+        "frame_coverage": true,
+        "eligibility": true,
+        "blend_ramp": true,
+        "counters": true,
+        "idle_control": true
+      },
+      "audited_frames": 49431,
+      "independently_recomputed_stats": {
+        "dog1": {
+          "eligible_ticks": 10867,
+          "active_ticks": 10867,
+          "full_specialist_ticks": 10768
+        },
+        "dog2": {
+          "eligible_ticks": 0,
+          "active_ticks": 0,
+          "full_specialist_ticks": 0
+        }
+      },
+      "first_violations": [],
+      "measurement_timing": "previous post-step arm positions; current pre-step phase and held flags",
+      "scope": "Actor file identity and measured eligibility/ramp only; physical task acceptance is separate"
+    },
+    "stow_braking_audit": {
+      "enabled": true,
+      "passed": true,
+      "checks": {
+        "configuration": true,
+        "event_clock": true,
+        "measured_stop": true,
+        "fold_after_stop": true,
+        "reported_velocity": true,
+        "measured_support_scope": true,
+        "measured_support_entry": true
+      },
+      "attempted_stops": 1,
+      "completed_stops": 1,
+      "observed_post_departure_folds": 1,
+      "independently_matched_folds": 1,
+      "first_violations": [],
+      "measured_support_entry_enabled": true,
+      "independently_active_support_frames": {
+        "dog1": 194,
+        "dog2": 0
+      },
+      "scope": "Measured stop and fold ordering only; zero interventions do not establish physical effectiveness"
+    },
+    "loaded_braking_audit": {
+      "passed": true,
+      "observed_ticks": 49431,
+      "issues": [],
+      "independently_active_support_frames": {
+        "dog1": 523,
+        "dog2": 0
+      },
+      "attitude_hysteresis_enabled": true,
+      "independently_retained_support_frames": {
+        "dog1": 0,
+        "dog2": 0
+      },
+      "scope": "Measured loaded-braking scope, entry and optional attitude retention; unused switch does not establish physical efficacy",
+      "enabled": true
+    },
+    "placement_wrench_audit": {
+      "passed": true,
+      "observed_ticks": 49431,
+      "issues": [],
+      "independently_scoped_qp_frames": {
+        "dog1": 2400,
+        "dog2": 0
+      },
+      "maximum_observed_ff_clipping_nm": {
+        "dog1": 2.0423985378524065,
+        "dog2": 0.0
+      },
+      "independently_scoped_loaded_recovery_qp_frames": {
+        "dog1": 523,
+        "dog2": 0
+      },
+      "independently_checked_total_motor_frames": {
+        "dog1": 523,
+        "dog2": 0
+      },
+      "scope": "Allocator selection and requested feedforward only; no total-PD torque or delivery success claim",
+      "enabled": true
+    },
+    "close_completion_audit": {
+      "enabled": false,
+      "passed": true
+    },
+    "auditor_sources": {
+      "z1_warehouse_audit.py": {
+        "file": "independent_check\\z1_warehouse_audit_f925dcc122fd.py",
+        "sha256": "f925dcc122fdc603c1227a5751bee62d6314a83d4b032edb134afc053a2804f9"
+      },
+      "analyze_fleet.py": {
+        "file": "independent_check\\analyze_fleet_bca35977a302.py",
+        "sha256": "bca35977a302d8075b2145a5a8a512f7aa89fafef232182d9d022d163b2adb65"
+      },
+      "z1_fleet_diagnostics.py": {
+        "file": "independent_check\\z1_fleet_diagnostics_599b0bf7d8be.py",
+        "sha256": "599b0bf7d8be1b9e0236822c38cb1e3a05da38ffba8d5f6db74ba100beae4bf2"
+      },
+      "return_gait_audit.py": {
+        "file": "independent_check\\return_gait_audit_1ef9b7c8aad9.py",
+        "sha256": "1ef9b7c8aad9a5fdf2b55245381b88bba902a9ee592622ba66eab5d220f471cb"
+      },
+      "stow_braking_audit.py": {
+        "file": "independent_check\\stow_braking_audit_4fb05716c949.py",
+        "sha256": "4fb05716c949f43e98fb60e20edfeb13092ef4293c2a97a2ec05a473c6e06258"
+      },
+      "loaded_braking_audit.py": {
+        "file": "independent_check\\loaded_braking_audit_fcb0992b4e36.py",
+        "sha256": "fcb0992b4e360cca744afb33ad96d70a7ec6d1dffe9ac61f12c5b20ec3d12069"
+      },
+      "placement_wrench_audit.py": {
+        "file": "independent_check\\placement_wrench_audit_328e8bfefcfc.py",
+        "sha256": "328e8bfefcfc7cfaa93c5b148f07fff673c2e7a6634e56ccf74314c37097c8f5"
+      },
+      "close_completion_audit.py": {
+        "file": "independent_check\\close_completion_audit_b077d0aaaa2a.py",
+        "sha256": "b077d0aaaa2a1a717d8323b311335bc3147a60fb8321fb33a8932c1dd169fd28"
+      },
+      "z1_ground_pickup_audit.py": {
+        "file": "independent_check\\z1_ground_pickup_audit_b3b51e9a95bd.py",
+        "sha256": "b3b51e9a95bd6f214ff8823da4f81023a0f68dfc8586dd660d3c10cc2859d7e4"
+      }
+    }
+  }
+}

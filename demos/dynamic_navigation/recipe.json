@@ -1,0 +1,19 @@
+{
+  "entrypoint": "run_warehouse_demo.ps1",
+  "checkpoint": "weights/empty_return/mounted_gait.pt",
+  "parameters": {
+    "Seed": 8,
+    "ArmModel": "z1",
+    "NavigationOnly": true,
+    "DynamicObstacle": true,
+    "StationaryMode": "Balance",
+    "BalanceScope": "SettledAll",
+    "MeasuredCOM": true,
+    "ContinuousRecoveryTargets": true,
+    "VectorTracking": true,
+    "RangeProfile": "Perturbed",
+    "NavigationBudgetSeconds": 48,
+    "FleetTicks": 30000
+  },
+  "scope": "Recorded unladen dynamic-cart yield, synthetic range errors and simulator-truth localization. No delivery or onboard SLAM claim."
+}

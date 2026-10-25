@@ -1,0 +1,184 @@
+{
+  "dual_delivery": {
+    "source_sha256": "cb19f43526949510ea8a4f91a1673878d68da3f4a9fd9227eb89b60af938bdff",
+    "original_edit": {
+      "scope": "Synchronized cuts from an independently passed dual delivery; no new physical run",
+      "sources": [
+        {
+          "file": "fleet.mp4",
+          "sha256": "1ae029746402839dc011037f221bfa3322488f6155374a2dc418b1861e4deecd"
+        },
+        {
+          "file": "fleet_detail.mp4",
+          "sha256": "20628e38abbc2a9a9f07e5da8799bed58e9488b141c5abed81f58249df75a100"
+        }
+      ],
+      "segments": [
+        {
+          "label": "station handoff",
+          "start_source_frame": 399,
+          "end_source_frame": 553,
+          "source_sim_start_s": 80.0,
+          "source_sim_end_s": 110.8,
+          "frames": 155
+        },
+        {
+          "label": "dog1 shelf 1 and dog2 grasp",
+          "start_source_frame": 699,
+          "end_source_frame": 838,
+          "source_sim_start_s": 140.0,
+          "source_sim_end_s": 167.8,
+          "frames": 140
+        },
+        {
+          "label": "dog2 shelf 23",
+          "start_source_frame": 1394,
+          "end_source_frame": 1543,
+          "source_sim_start_s": 279.0,
+          "source_sim_end_s": 308.8,
+          "frames": 150
+        },
+        {
+          "label": "dog2 home return",
+          "start_source_frame": 1759,
+          "end_source_frame": 1819,
+          "source_sim_start_s": 352.0,
+          "source_sim_end_s": 364.0,
+          "frames": 61
+        }
+      ],
+      "fps": 5.0,
+      "expected_frames": 506,
+      "declared_frames": 506,
+      "decoded_frames": 506,
+      "duration_s": 101.2,
+      "sha256": "cb19f43526949510ea8a4f91a1673878d68da3f4a9fd9227eb89b60af938bdff",
+      "output": "pipeline_closeup_highlights_1x.mp4",
+      "montage": "pipeline_closeup_highlights_1x_montage.jpg",
+      "complete": true
+    },
+    "output": {
+      "file": "demo_1x.mp4",
+      "frames": 506,
+      "fps": 5.0,
+      "duration_s": 101.2,
+      "sha256": "fbd27ebfb2e2843366fefe23bf83b24437091fdd531e412d130074e1154e1510",
+      "bytes": 8296506
+    },
+    "note": "Recorded source frames; re-encoded only.1x inside each segment; gaps are explicit in original timeline.",
+    "preview": {
+      "source_demo_frames": [
+        155,
+        194
+      ],
+      "duration_s": 8.0,
+      "speed": "1x",
+      "sha256": "ad8fe9664d67c6758ce30a8e578477962072aeb91d67b304c4e808123fe71eaf"
+    }
+  },
+  "far_shelf": {
+    "source_sha256": "2b6a982c6d79a0a87bd4fd45a0ed0a049fd407061a5b65258473095b65025b0e",
+    "original_edit": {
+      "scope": "30-second shelf release excerpt; full single-order run independently passed; no dual or six-order claim",
+      "playback_speed": 1.0,
+      "source_first_frame": 824,
+      "source_last_frame": 973,
+      "source_sim_start_s": 165.0,
+      "source_sim_end_s": 194.8,
+      "decoded_frames": 150,
+      "expected_frames": 150,
+      "fps": 5.0,
+      "source_sha256": {
+        "fleet.mp4": "aa9404a051fd7ae595abd0fa6952a9b5997439d3147d640f561f1410a0cbc16f",
+        "fleet_detail.mp4": "443eb61551425cd398d69673eb4ff9823be12c4caf729160b2946dc45ab735fe"
+      },
+      "excerpt_sha256": "2b6a982c6d79a0a87bd4fd45a0ed0a049fd407061a5b65258473095b65025b0e",
+      "final_review_sha256": "2ca55b00e7af40fae13b4a79d3af3bfe0787fc4bc268d0202d16fe9871a8ec2e"
+    },
+    "output": {
+      "file": "demo_1x.mp4",
+      "frames": 150,
+      "fps": 5.0,
+      "duration_s": 30.0,
+      "sha256": "781fb4508269b6c56e21b0932ebb4a1bf66fdfd2f48d24fa42a2baca905bd6e1",
+      "bytes": 1092397
+    },
+    "note": "Recorded source frames; re-encoded only.1x inside each segment; gaps are explicit in original timeline.",
+    "preview": {
+      "source_demo_frames": [
+        40,
+        79
+      ],
+      "duration_s": 8.0,
+      "speed": "1x",
+      "sha256": "0811679bca0160bf6e26d3c5ef9ddb5fa574faac4706972b627b58159f0bb3f7"
+    }
+  },
+  "dynamic_navigation": {
+    "sources": {
+      "fleet.mp4": "6041d210cd36d6fd8b456dcc9d7fd370d4628b0a0a385da70f07cd65c34e0727",
+      "fleet_detail.mp4": "03d905e2c1cdda11d00534d0e7ba379705e9cc32c1e5f382ff23b8def282fe7e"
+    },
+    "output": {
+      "file": "demo_1x.mp4",
+      "frames": 185,
+      "fps": 5.0,
+      "duration_s": 37.0,
+      "sha256": "2b0ebea0d531241503eed87d0a83dbe98cf443c49548d86c02bc4b59c1a966c4",
+      "bytes": 2520131
+    },
+    "note": "Both cameras are the same physical run/frame; no interpolation.37.170s physical endpoint, last recorded image37.0s.",
+    "preview": {
+      "source_demo_frames": [
+        30,
+        69
+      ],
+      "duration_s": 8.0,
+      "speed": "1x",
+      "sha256": "c69c0017bea857643bbf5feb310a553eaefc318bdd2a7018eb7f012c615d27cc"
+    }
+  },
+  "showreel": {
+    "output": {
+      "file": "showreel_1x.mp4",
+      "frames": 261,
+      "fps": 5.0,
+      "duration_s": 52.2,
+      "sha256": "ed34256e5fc12ce587cd362be6f225cbf55d049b3f40a84d0d1159c371cc4dc8",
+      "bytes": 3108041
+    },
+    "segments": [
+      {
+        "demo": "dual_delivery",
+        "demo_start_s": 0.0,
+        "demo_end_s": 10.0,
+        "frames": 50
+      },
+      {
+        "demo": "dual_delivery",
+        "demo_start_s": 31.0,
+        "demo_end_s": 41.0,
+        "frames": 50
+      },
+      {
+        "demo": "far_shelf",
+        "demo_start_s": 5.0,
+        "demo_end_s": 17.0,
+        "frames": 60
+      },
+      {
+        "demo": "dynamic_navigation",
+        "demo_start_s": 6.0,
+        "demo_end_s": 18.0,
+        "frames": 60
+      },
+      {
+        "demo": "dual_delivery",
+        "demo_start_s": 93.0,
+        "demo_end_s": 101.2,
+        "frames": 41
+      }
+    ],
+    "note": "Edited recorded excerpts,1x inside segments, no claim of one continuous task or simultaneous cargo transport."
+  }
+}

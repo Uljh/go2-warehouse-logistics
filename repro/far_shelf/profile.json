@@ -1,0 +1,7 @@
+{
+  "original_run": "z1_far_single_retained_support_20261024_0057",
+  "overrides": [],
+  "frozen_source_count": 62,
+  "base": "go2_logistics",
+  "note": "All originally frozen Python files are byte-for-byte recoverable; the portable launcher replaces only historical machine-specific host setup. Shared dependencies not captured in the historical manifest are identified separately."
+}

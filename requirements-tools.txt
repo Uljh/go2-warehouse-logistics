@@ -1,0 +1,11 @@
+# Install into the Isaac Lab Python environment, not a separate simulator stack.
+numpy>=1.26,<3
+scipy>=1.11,<2
+opencv-python>=4.8,<5
+imageio>=2.31,<3
+imageio-ffmpeg>=0.5,<1
+Pillow>=10,<13
+osqp>=1,<2
+clarabel>=0.10,<1
+qrcode>=7,<9
+zxing-cpp>=2.2,<4

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Recorded Go2 + original-mass Z1 warehouse manipulation, with physical measurements and source snapshots.">
+  <title>Go2 Warehouse Logistics — recorded demos</title>
+  <style>
+    :root{color-scheme:light;--paper:#f4f2ed;--ink:#152329;--muted:#56666b;--line:#d9ded9;--green:#246356;--card:#fff;--accent:#d8eae3}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--green);text-underline-offset:4px}a:hover{color:#0a3f32}main,header,footer{max-width:1180px;margin:auto;padding:0 28px}header{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:25px;padding-bottom:25px;border-bottom:1px solid var(--line)}.brand{font-size:14px;font-weight:750;letter-spacing:.03em;text-decoration:none;color:var(--ink)}nav{display:flex;gap:22px;font-size:14px}nav a{text-decoration:none}.intro{display:grid;grid-template-columns:1.2fr 1fr;gap:70px;align-items:end;padding:68px 0 38px}.eyebrow{color:var(--green);font-size:12px;font-weight:750;letter-spacing:.15em;text-transform:uppercase}h1{font-size:clamp(40px,6vw,72px);line-height:1.04;letter-spacing:-.055em;margin:17px 0 0;font-weight:720}h1 span{color:var(--green)}.lead{font-size:19px;line-height:1.65;color:var(--muted);margin:0 0 12px}.small{font-size:13px;color:var(--muted)}.showreel{background:#102029;border-radius:14px;overflow:hidden;box-shadow:0 18px 55px #15322915}.showreel video{width:100%;display:block;aspect-ratio:16/9;background:#10191d}.video-caption{padding:14px 20px;color:#b9d2d0;font-size:13px}.stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line);padding:32px 0 37px;gap:20px}.stats strong{display:block;font-size:29px;line-height:1.3;letter-spacing:-.04em}.stats span{font-size:12px;color:var(--muted)}section{scroll-margin-top:24px}.section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:25px;margin:58px 0 24px}h2{font-size:31px;line-height:1.2;letter-spacing:-.035em;margin:0}.section-heading p{margin:0;color:var(--muted);font-size:14px}.demo{display:grid;grid-template-columns:1.35fr 1fr;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:22px 0}.demo-media{background:#121d23;display:flex;align-items:center}.demo video{display:block;width:100%;max-height:430px}.demo-copy{padding:28px 30px}.tag{display:inline-block;padding:4px 10px;background:var(--accent);color:var(--green);font-size:11px;font-weight:750;border-radius:30px;letter-spacing:.06em;text-transform:uppercase}h3{font-size:25px;line-height:1.2;letter-spacing:-.025em;margin:15px 0 12px}.demo-copy p{color:var(--muted);font-size:14px}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin:22px 0}.metrics strong{display:block;font-size:23px;line-height:1.2}.metrics span{font-size:11px;color:var(--muted)}.links{display:flex;gap:17px;flex-wrap:wrap;font-size:13px}.scope{border-top:1px solid var(--line);padding-top:14px;margin-bottom:0!important;font-size:12px!important}.pipeline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:25px 0 16px}.step{padding:23px;background:#e8eeea;border-radius:10px}.step b{font-size:12px;color:var(--green);display:block;margin-bottom:13px}.step strong{font-size:17px;display:block}.step p{font-size:13px;color:var(--muted);margin-bottom:0}.limits{display:grid;grid-template-columns:1fr 1fr;gap:30px;border-top:1px solid var(--line);padding-top:26px;margin:50px 0}.limits h3{margin-top:0;font-size:21px}.limits p,.limits li{color:var(--muted);font-size:14px}.limits ul{padding-left:20px}.callout{padding:20px 24px;border-left:3px solid var(--green);background:#e5eee8;margin:28px 0 55px;font-size:14px}code{font-size:12px;background:#e6ebe7;border-radius:4px;padding:3px 5px;overflow-wrap:anywhere}footer{border-top:1px solid var(--line);padding-top:25px;padding-bottom:35px;display:flex;justify-content:space-between;gap:25px;font-size:12px;color:var(--muted)}
+    @media(max-width:850px){.intro{grid-template-columns:1fr;gap:27px;padding-top:42px}.demo{grid-template-columns:1fr}.pipeline{grid-template-columns:1fr 1fr}.limits{grid-template-columns:1fr;gap:15px}.stats{grid-template-columns:1fr 1fr}.section-heading{display:block}.section-heading p{margin-top:12px}header{align-items:flex-start}nav{gap:13px;flex-wrap:wrap;justify-content:flex-end}.demo-copy{padding:23px}footer{flex-direction:column;gap:7px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+<header>
+  <a class="brand" href="#">GO2 / WAREHOUSE LOGISTICS</a>
+  <nav aria-label="Main"><a href="#demos">Demos</a><a href="#system">System</a><a href="../README.zh-CN.md">中文</a><a href="https://github.com/Uljh/go2-warehouse-logistics">GitHub ↗</a></nav>
+</header>
+<main>
+  <div class="intro">
+    <div><div class="eyebrow">Mobile manipulation · Isaac Sim / PhysX</div><h1>Legs. Arm.<br><span>A warehouse task.</span></h1></div>
+    <div><p class="lead">Go2 robots carrying original-mass Z1 arms: identify a parcel, grasp through contact, deliver to the right shelf, then return.</p><p class="small">Recorded simulation, with measured results and captured source revisions. Current physical fleet: two dogs.</p></div>
+  </div>
+  <div class="showreel">
+    <video controls playsinline preload="metadata" poster="media/dual_delivery/poster.jpg" aria-label="52-second recorded portfolio showreel"><source src="media/showreel_1x.mp4" type="video/mp4"></video>
+    <div class="video-caption">52.2-second edited tour · Original speed within each segment · Original simulation timestamps retained</div>
+  </div>
+  <div class="stats">
+    <div><strong>5.221 kg</strong><span>Original Z1 arm mass</span></div><div><strong>200 Hz</strong><span>Physics and contact-control trace</span></div><div><strong>3 demos</strong><span>Original physical + evidence passes</span></div><div><strong>0 bindings</strong><span>Independent dynamic parcels</span></div>
+  </div>
+  <section id="demos">
+    <div class="section-heading"><h2>Recorded and measured.</h2><p>Highlights, complete recordings and acceptance reports.</p></div>
+    <article class="demo" id="dual">
+      <div class="demo-media"><video controls playsinline preload="metadata" poster="media/dual_delivery/poster.jpg" aria-label="Two robots, two deliveries"><source src="media/dual_delivery/demo_1x.mp4" type="video/mp4"></video></div>
+      <div class="demo-copy"><span class="tag">01 / Two-order physical pass</span><h3>Two dogs. Two shelves.<br>Both back home.</h3><p>Camera-decoded parcels are grasped through contact, transported to shelves 1 and 23, released and checked after arm withdrawal and return.</p>
+        <div class="metrics"><div><strong>364.070 s</strong><span>Complete physical run</span></div><div><strong>2.12 / 5.42 mm</strong><span>Final placement errors</span></div></div>
+        <div class="links"><a href="media/dual_delivery/full_run_1x.mp4">Complete 1x recording</a><a href="../evidence/dual_delivery/acceptance.json">Acceptance report</a></div>
+        <p class="scope">Known warehouse, one order per dog. Navigation/manipulation overlap; simultaneous payload holding: 0 s. Continuous batches remain unvalidated.</p>
+      </div>
+    </article>
+    <article class="demo" id="far">
+      <div class="demo-media"><video controls playsinline preload="metadata" poster="media/far_shelf/poster.jpg" aria-label="Far shelf23 contact delivery"><source src="media/far_shelf/demo_1x.mp4" type="video/mp4"></video></div>
+      <div class="demo-copy"><span class="tag">02 / Single-order physical pass</span><h3>The far shelf,<br>with a contact grasp.</h3><p>Approximately 12 m of measured loaded root displacement, shelf release, retreat, empty-arm stow and return. The 30-second excerpt focuses on placement.</p>
+        <div class="metrics"><div><strong>247.155 s</strong><span>Complete physical run</span></div><div><strong>5.42 mm</strong><span>Final placement error</span></div></div>
+        <div class="links"><a href="media/far_shelf/full_run_1x.mp4">Complete 1x recording</a><a href="../evidence/far_shelf/acceptance.json">Acceptance report</a></div>
+        <p class="scope">One active carrier; a second dog is present. This recording establishes one delivery cycle, not fleet throughput or repeated-condition reliability.</p>
+      </div>
+    </article>
+    <article class="demo" id="dynamic">
+      <div class="demo-media"><video controls playsinline preload="metadata" poster="media/dynamic_navigation/poster.jpg" aria-label="Perturbed-range dynamic cart avoidance"><source src="media/dynamic_navigation/demo_1x.mp4" type="video/mp4"></video></div>
+      <div class="demo-copy"><span class="tag">03 / Unladen navigation pass</span><h3>See a moving cart.<br>Yield and continue.</h3><p>Two unladen dogs use measured PhysX ranges with 1 cm synthetic noise, 5 mm quantization and 3% dropout to navigate around a scripted moving cart.</p>
+        <div class="metrics"><div><strong>37.170 s</strong><span>Complete physical run</span></div><div><strong>0 N</strong><span>Maximum measured cart contact</span></div></div>
+        <div class="links"><a href="media/dynamic_navigation/full_run_1x.mp4">Complete telemetry view</a><a href="../evidence/dynamic_navigation/acceptance.json">Acceptance report</a></div>
+        <p class="scope">Scripted kinematic obstacle, simulator-truth localization and synthetic sensor errors. No cargo delivery or onboard SLAM claim.</p>
+      </div>
+    </article>
+  </section>
+  <section id="system">
+    <div class="section-heading"><h2>From observation to contact.</h2><p>Learned locomotion, explicit task modules.</p></div>
+    <div class="pipeline"><div class="step"><b>01 / PERCEIVE</b><strong>RGB-D + ranges</strong><p>Parcel code and grasp geometry; measured returns for occupancy mapping.</p></div><div class="step"><b>02 / COORDINATE</b><strong>Orders + reservations</strong><p>Receiving zone, corridor and shelf-row ownership for two robots in one world.</p></div><div class="step"><b>03 / ACT</b><strong>Leg policy + Z1</strong><p>50 Hz leg actor; force feedback and constrained support at the 200 Hz physical loop.</p></div><div class="step"><b>04 / VERIFY</b><strong>Measured completion</strong><p>Contact, placement, arm retreat, return, original guards and complete recordings.</p></div></div>
+    <p class="small"><a href="ARCHITECTURE.md">Architecture and source map</a> · <a href="REPRODUCING.md">Environment and launch recipes</a> · <a href="MODEL_CARD.md">Locomotion model card</a></p>
+  </section>
+  <div class="limits">
+    <div><h3>What the recordings establish</h3><p>Three named individual runs with original mass, motor limits and force/body guards. No parcel binding, runtime pose reset or rescue force. Complete-rate measurement projections and source hashes are included.</p></div>
+    <div><h3>What comes next</h3><ul><li>Continuous six-parcel delivery is still unaccepted.</li><li>Configurable N-dog operation is the goal; current physical runtime is two.</li><li>Onboard localization, larger fleets and long-term multi-batch reliability remain future work.</li></ul><a href="RESULTS.md">Full results and limitations</a></div>
+  </div>
+  <div class="callout">Inspect locally without a simulator: <code>python scripts/verify_release.py --measurements</code>. The publication launcher was checked to the simulator boundary; the fresh-checkout physical sequence was not rerun during packaging.</div>
+</main>
+<footer><span>Recorded simulation portfolio · Published 2026-10-25 · Uljh</span><span><a href="https://github.com/Uljh/go2-warehouse-logistics">Source and evidence</a> · <a href="../THIRD_PARTY.md">Third-party provenance</a></span></footer>
+</body>
+</html>

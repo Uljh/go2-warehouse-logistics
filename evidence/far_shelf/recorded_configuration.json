@@ -1,0 +1,258 @@
+{
+  "seed": 8,
+  "configured_codes": [
+    "23-401"
+  ],
+  "control_ticks": 49431,
+  "control_trace_period_s": 0.005,
+  "physics_timing": {
+    "physics_dt_s": 0.005,
+    "decimation": 1,
+    "control_period_s": 0.005,
+    "render_interval": 20,
+    "external_forces_every_iteration": false
+  },
+  "gait_inference_period_s": 0.02,
+  "arm_runtime_integrity": {
+    "dog1": {
+      "passed": true,
+      "arm_mass_kg": 5.220970153808594,
+      "expected_arm_mass_kg": 5.22096983,
+      "fixed_base": false,
+      "actual_joint_limits_rad": [
+        [
+          -2.6179938316345215,
+          2.6179938316345215
+        ],
+        [
+          0.0,
+          2.96705961227417
+        ],
+        [
+          -2.879793167114258,
+          0.0
+        ],
+        [
+          -1.5184364318847656,
+          1.5184364318847656
+        ],
+        [
+          -1.3439035415649414,
+          1.3439035415649414
+        ],
+        [
+          -2.7925267219543457,
+          2.7925267219543457
+        ],
+        [
+          -1.5707963705062866,
+          0.0
+        ]
+      ],
+      "payload_joints": [],
+      "payload_kinematic": false,
+      "runtime_state_writes": 0
+    },
+    "dog2": {
+      "passed": true,
+      "arm_mass_kg": 5.220970153808594,
+      "expected_arm_mass_kg": 5.22096983,
+      "fixed_base": false,
+      "actual_joint_limits_rad": [
+        [
+          -2.6179938316345215,
+          2.6179938316345215
+        ],
+        [
+          0.0,
+          2.96705961227417
+        ],
+        [
+          -2.879793167114258,
+          0.0
+        ],
+        [
+          -1.5184364318847656,
+          1.5184364318847656
+        ],
+        [
+          -1.3439035415649414,
+          1.3439035415649414
+        ],
+        [
+          -2.7925267219543457,
+          2.7925267219543457
+        ],
+        [
+          -1.5707963705062866,
+          0.0
+        ]
+      ],
+      "payload_joints": [],
+      "payload_kinematic": false,
+      "runtime_state_writes": 0
+    }
+  },
+  "manipulation_config": {
+    "dog1": {
+      "dropoff_position": [
+        -3.0000000000000004,
+        9.0,
+        0.45999999999999996
+      ],
+      "grasp_mode": "contact",
+      "parcel_size_xyz_m": [
+        0.1,
+        0.035,
+        0.08
+      ],
+      "gripper_open_rad": -1.45,
+      "jaw_sample_x_m": 0.15,
+      "grasp_heading_reference_rad": null,
+      "lift_height": 0.48,
+      "approach_height": 0.1,
+      "close_seconds": 24.0,
+      "close_on_stable_contact": false,
+      "approach_seconds": 8.0,
+      "pregrasp_seconds": null,
+      "lift_seconds": 12.0,
+      "place_seconds": 5.0,
+      "release_seconds": 2.0,
+      "settle_seconds": 2.0,
+      "tracking_settle_seconds": 2.0,
+      "force_target_n": 6.0,
+      "precontact_limit_n": 2.0,
+      "hard_contact_limit_n": 20.0,
+      "position_tolerance_m": 0.012,
+      "orientation_tolerance_rad": 0.2,
+      "placement_planar_tolerance": 0.04,
+      "placement_height_tolerance": 0.015,
+      "placement_surface_z": 0.42,
+      "placement_approach_height": 0.04,
+      "release_clearance_backoff_m": 0.04,
+      "release_clearance_rise_m": 0.04,
+      "release_clearance_seconds": 2.0,
+      "placement_deck_size_xy": [
+        0.3,
+        0.4
+      ],
+      "reset_before_grasp": true,
+      "stow_after_release": true,
+      "constraint_path": "/World/unused_Z1_assisted_grasp"
+    },
+    "dog2": {
+      "dropoff_position": [
+        0.0,
+        0.0,
+        0.46
+      ],
+      "grasp_mode": "contact",
+      "parcel_size_xyz_m": [
+        0.1,
+        0.035,
+        0.08
+      ],
+      "gripper_open_rad": -1.45,
+      "jaw_sample_x_m": 0.15,
+      "grasp_heading_reference_rad": null,
+      "lift_height": 0.48,
+      "approach_height": 0.1,
+      "close_seconds": 24.0,
+      "close_on_stable_contact": false,
+      "approach_seconds": 8.0,
+      "pregrasp_seconds": null,
+      "lift_seconds": 12.0,
+      "place_seconds": 5.0,
+      "release_seconds": 2.0,
+      "settle_seconds": 2.0,
+      "tracking_settle_seconds": 2.0,
+      "force_target_n": 6.0,
+      "precontact_limit_n": 2.0,
+      "hard_contact_limit_n": 20.0,
+      "position_tolerance_m": 0.012,
+      "orientation_tolerance_rad": 0.2,
+      "placement_planar_tolerance": 0.04,
+      "placement_height_tolerance": 0.015,
+      "placement_surface_z": 0.42,
+      "placement_approach_height": 0.04,
+      "release_clearance_backoff_m": 0.04,
+      "release_clearance_rise_m": 0.04,
+      "release_clearance_seconds": 2.0,
+      "placement_deck_size_xy": [
+        0.3,
+        0.4
+      ],
+      "reset_before_grasp": true,
+      "stow_after_release": true,
+      "constraint_path": "/World/unused_Z1_assisted_grasp"
+    }
+  },
+  "navigation_budget": {
+    "mode": "seconds",
+    "control_steps": 9600,
+    "control_period_s": 0.005,
+    "nominal_seconds": 48.0,
+    "scope": "outer navigation iterations; nested stance recovery has a separate original guard"
+  },
+  "balance_controller_config": {
+    "height_m": 0.33,
+    "height_kp": 450.0,
+    "height_kd": 60.0,
+    "tilt_kp": 35.0,
+    "tilt_kd": 4.0,
+    "friction": 0.45,
+    "torque_limit_nm": 18.0,
+    "joint_rate_radps": 1.2,
+    "enter_time_s": 0.2,
+    "exit_time_s": 0.25,
+    "allocator": "sequential",
+    "stationary_payload_qp": true,
+    "loaded_recovery_qp": true,
+    "total_motor_qp": true,
+    "joint_motor_qp": true,
+    "handoff_mode": "settled_slew",
+    "exit_joint_rate_radps": 4.0,
+    "handoff_release_seconds": 0.0,
+    "recenter_foot": false,
+    "offload_foot": false,
+    "measured_com": true,
+    "leg_ik": "clipped",
+    "stance_fit": false,
+    "target_update": "project_then_slew",
+    "touchdown_ik": false,
+    "airborne_touchdown": false,
+    "workspace_reference": false,
+    "workspace_settled_entry": false,
+    "workspace_entry_max_height_m": null
+  },
+  "loaded_planar_speed_limit_mps": 0.35,
+  "final_home_error_m": {
+    "dog1": 0.01965062111955728,
+    "dog2": 0.018699986200079295
+  },
+  "final_parcels": {
+    "23-401": [
+      -3.000091791152954,
+      8.99458122253418,
+      0.4599999487400055
+    ]
+  },
+  "final_parcel_quaternions_xyzw": {
+    "23-401": [
+      2.2156229988468112e-06,
+      -4.7353668719551933e-07,
+      -0.02706582471728325,
+      0.9996337294578552
+    ]
+  },
+  "parcel_dimensions_m": {
+    "23-401": [
+      0.1,
+      0.035,
+      0.08
+    ]
+  },
+  "shared_world": true,
+  "robot_count": 2,
+  "world_reset_between_orders": false
+}
