@@ -2,11 +2,11 @@
 
 **Contact-based mobile manipulation with Unitree Go2 + original-mass Z1, in Isaac Sim / PhysX.**
 
-[中文说明](README.zh-CN.md) · [Demo gallery](docs/index.html) · [Reproduce](docs/REPRODUCING.md) · [Architecture](docs/ARCHITECTURE.md) · [Verified scope](docs/RESULTS.md)
+[中文说明](README.zh-CN.md) · [Live demo gallery](https://uljh.github.io/go2-warehouse-logistics/docs/) · [Reproduce](docs/REPRODUCING.md) · [Architecture](docs/ARCHITECTURE.md) · [Verified scope](docs/RESULTS.md)
 
-[![Two dogs, two recorded deliveries](docs/media/dual_delivery/poster.jpg)](docs/media/showreel_1x.mp4)
+[![Two dogs, two recorded deliveries](docs/media/dual_delivery/poster.jpg)](https://uljh.github.io/go2-warehouse-logistics/docs/media/showreel_1x.mp4)
 
-**[Watch the 52-second showreel](docs/media/showreel_1x.mp4)** — edited recorded excerpts, original speed within each segment. Each demo below also includes the complete run.
+**[Watch the 52-second showreel](https://uljh.github.io/go2-warehouse-logistics/docs/media/showreel_1x.mp4)** — edited recorded excerpts, original speed within each segment. Each demo below also includes the complete run.
 
 This project connects visual parcel identification, shared-resource scheduling, range-based navigation, learned leg control and force-regulated arm manipulation. The Z1 retains its approximately **5.221 kg** original mass and original motor/joint limits. Parcels remain independent dynamic bodies: no grasp bindings, runtime pose resets or rescue forces.
 
@@ -14,9 +14,9 @@ This project connects visual parcel identification, shared-resource scheduling, 
 
 | Two dogs, two deliveries | Delivery to far shelf 23 | Dynamic obstacle yield |
 |:---:|:---:|:---:|
-| [![Dual delivery](docs/media/dual_delivery/preview.gif)](docs/media/dual_delivery/demo_1x.mp4) | [![Far shelf](docs/media/far_shelf/preview.gif)](docs/media/far_shelf/demo_1x.mp4) | [![Dynamic navigation](docs/media/dynamic_navigation/preview.gif)](docs/media/dynamic_navigation/demo_1x.mp4) |
+| [![Dual delivery](docs/media/dual_delivery/preview.gif)](https://uljh.github.io/go2-warehouse-logistics/docs/media/dual_delivery/demo_1x.mp4) | [![Far shelf](docs/media/far_shelf/preview.gif)](https://uljh.github.io/go2-warehouse-logistics/docs/media/far_shelf/demo_1x.mp4) | [![Dynamic navigation](docs/media/dynamic_navigation/preview.gif)](https://uljh.github.io/go2-warehouse-logistics/docs/media/dynamic_navigation/demo_1x.mp4) |
 | Two image-identified parcels, contact grasp, shelves 1/23, both dogs home | Contact grasp, approximately 12 m measured loaded displacement, shelf release and return | Two unladen dogs yield to a moving cart with perturbed range measurements |
-| [101.2 s highlights](docs/media/dual_delivery/demo_1x.mp4) · [364 s complete recording](docs/media/dual_delivery/full_run_1x.mp4) | [30 s shelf excerpt](docs/media/far_shelf/demo_1x.mp4) · [247 s complete recording](docs/media/far_shelf/full_run_1x.mp4) | [37 s synchronized cameras](docs/media/dynamic_navigation/demo_1x.mp4) · [complete overview + telemetry](docs/media/dynamic_navigation/full_run_1x.mp4) |
+| [101.2 s highlights](https://uljh.github.io/go2-warehouse-logistics/docs/media/dual_delivery/demo_1x.mp4) · [364 s complete recording](https://uljh.github.io/go2-warehouse-logistics/docs/media/dual_delivery/full_run_1x.mp4) | [30 s shelf excerpt](https://uljh.github.io/go2-warehouse-logistics/docs/media/far_shelf/demo_1x.mp4) · [247 s complete recording](https://uljh.github.io/go2-warehouse-logistics/docs/media/far_shelf/full_run_1x.mp4) | [37 s synchronized cameras](https://uljh.github.io/go2-warehouse-logistics/docs/media/dynamic_navigation/demo_1x.mp4) · [complete overview + telemetry](https://uljh.github.io/go2-warehouse-logistics/docs/media/dynamic_navigation/full_run_1x.mp4) |
 
 GIFs are eight-second excerpts at 1x simulation speed. Cuts retain their original simulation timestamps; no interpolation or synthesized footage is used.
 
