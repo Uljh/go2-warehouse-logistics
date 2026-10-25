@@ -1,16 +1,16 @@
-# Captured locomotion-adaptation source
+# Locomotion training sources
 
-The two folders preserve the actual implementation files recorded when the published gait checkpoints were trained:
+These folders contain the adaptation code captured when the published gait checkpoints were trained.
 
-| Snapshot | Weight role | Captured files |
+| Folder | Checkpoint role | Contents |
 |---|---|---|
-| `carry/` | General mounted gait used for the accepted delivery recordings | Training script, adaptation environment, mounted asset helpers and original host launcher |
-| `empty_return/` | Empty/stowed return specialist and dynamic-navigation actor | The corresponding earlier versions of those five files |
+| [carry/](carry/) | General mounted gait used in the delivery demos | Training script, adaptation environment, mounted-asset helpers and host launcher |
+| [empty_return/](empty_return/) | Empty/stowed return gait, also used for dynamic navigation | The corresponding earlier versions of those five files |
 
-Every captured file is unchanged, with its original SHA-256 in `source_manifest.json`. The full run settings, source checkpoint hash, measured arm-pose bank and training scope are in `weights/<role>/manifest.json`.
+Training uses **RSL-RL / PPO** to adapt a pretrained Go2 policy to the mounted Z1 arm. Both runs use an empty gripper with home/stow and measured extended arm poses. Grasping and arm motion are controlled separately in the warehouse runtime.
 
-This is PPO adaptation of pretrained locomotion for a mounted original-mass arm. The recorded scope uses empty-gripper home/stow and measured extended poses; it is not learned contact grasping or an end-to-end warehouse policy. Historical training evaluation scores are not used as current reliability claims.
+Each folder's `source_manifest.json` records the original file hashes. The settings, source checkpoint hash and arm-pose bank are in the [carry manifest](../weights/carry/manifest.json) and [return manifest](../weights/empty_return/manifest.json).
 
-The archived PowerShell launchers contain historical host paths and are retained as provenance. Retraining requires adapting host paths, obtaining the source checkpoint and matching the recorded simulator/environment versions. No retraining is launched by this publication, and this archive is not presented as a newly validated training recipe.
+For retraining, update the archived host paths, obtain the source checkpoint and match the environment versions in the manifests. The archived launchers retain their original machine paths.
 
-RSL-RL and robot-description terms remain applicable; see `../THIRD_PARTY.md`.
+See the [model card](../docs/MODEL_CARD.md) for the policy interface and [THIRD_PARTY.md](../THIRD_PARTY.md) for upstream terms.

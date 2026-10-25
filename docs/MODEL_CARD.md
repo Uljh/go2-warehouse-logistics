@@ -1,20 +1,24 @@
-# Locomotion model card
+# Locomotion models
 
-| File | Role | SHA-256 |
+The project uses two Go2 locomotion checkpoints, adapted from a pretrained policy with RSL-RL / PPO.
+
+| Checkpoint | Runtime role | Training settings |
 |---|---|---|
-| `weights/carry/mounted_gait.pt` | General mounted-robot locomotion used for the accepted delivery recordings | `80e6088b17bd3c0ee4194c7ece34d2a21ed25c925d13b80f26807a0da266613d` |
-| `weights/empty_return/mounted_gait.pt` | Empty/stowed return specialist; also the base actor in the dynamic navigation recording | `47234403cf76658274023344985e78f58df776b95c9649e9f033426cf0b1177e` |
+| [carry/mounted_gait.pt](../weights/carry/mounted_gait.pt) | General mounted-robot gait used in the delivery demos | [manifest](../weights/carry/manifest.json) |
+| [empty_return/mounted_gait.pt](../weights/empty_return/mounted_gait.pt) | Empty/stowed return gait; also used in the dynamic-navigation demo | [manifest](../weights/empty_return/manifest.json) |
 
-These are RSL-RL PyTorch checkpoint dictionaries containing `actor_state_dict`, `critic_state_dict` and training metadata, not TorchScript exports. They were adapted from pretrained Go2 locomotion using RSL-RL/PPO in the project. The actor has48 input values, hidden widths128/128/128 and12 leg-joint outputs. Nominal inference is50Hz; physical/contact control is200Hz in the Z1 warehouse.
+## Policy interface
 
-The runtime loads the checkpoint through RSL-RL's `OnPolicyRunner`; a return specialist is loaded from `actor_state_dict` into the matching actor architecture. The publication model check uses `torch.load(..., weights_only=True)` to verify identity, tensor dimensions and finiteness; it does not claim a new inference or rollout test.
+The actor takes **48 inputs**, has three hidden layers of **128 units** each and produces **12 leg-joint actions**. It runs at **50 Hz**, alongside the warehouse's **200 Hz** physics and contact-control loop.
 
-The name `carry` identifies its runtime role. The training scope in the supplied manifests is mounted-arm home/stow plus measured extended poses with an empty gripper; this is not contact-grasp training or an end-to-end learned manipulation policy.
+The files are RSL-RL PyTorch checkpoint dictionaries containing `actor_state_dict`, `critic_state_dict` and training metadata. The main policy is loaded through `OnPolicyRunner`; the return specialist loads `actor_state_dict` into the matching actor architecture.
 
-Training manifests are supplied beside each weight with original machine/user path prefixes redacted. Historical evaluation numbers are provenance, not a newly verified success-rate estimate. Current portfolio claims come from the three named physical recordings and their original independent audits.
+## Training and use
 
-The actual captured adaptation implementations are preserved in [training/](../training), including each run's five-file source manifest. They are research source snapshots, not a freshly validated one-command training pipeline.
+Both adaptations trained mounted-robot locomotion with an empty gripper, using home/stow and measured extended arm poses. The `carry` name describes the checkpoint's role in the delivery runtime. Arm motion and contact grasping are handled by separate controllers.
 
-The return actor is gated by empty payload state, phase and measured arm stow, with a finite blend. Support/recovery controllers may still have final action authority; actor selection and physical task success are audited separately.
+The return specialist is selected according to payload state, task phase and measured arm stow, then blended in gradually. Support and recovery controllers can also adjust the final leg targets.
 
-Models were developed and recorded in simulation on a known environment. No hardware transfer, onboard perception, random warehouse robustness or larger-fleet performance is established. Original simulator, robot description and RSL-RL terms remain applicable; see `THIRD_PARTY.md`.
+The [training directory](../training/) contains the captured adaptation sources. Settings, source checkpoint hashes and arm-pose banks are recorded in the manifests beside the weights.
+
+These models were developed in simulation; hardware transfer remains future work. See [THIRD_PARTY.md](../THIRD_PARTY.md) for upstream sources and terms.
